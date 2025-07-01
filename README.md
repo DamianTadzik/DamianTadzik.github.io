@@ -13,6 +13,8 @@ This is the source code for my personal portfolio website hosted via GitHub Page
 This site is automatically published via GitHub Pages.
 
 ## TODO List
-- [ ] Think of projects to include
+- [x] Think of projects to include
 - [ ] Ensure that the page is secure!!!
-- [ ] Ensure that everything is in english, and easy to understand
+- [x] Ensure that everything is in english, and easy to understand
+- [ ] Add the thanks section somewhere
+- [ ] x
