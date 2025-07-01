@@ -7,7 +7,7 @@ This is the source code for my personal portfolio website hosted via GitHub Page
 - `about.html` – about me page with description and photo
 - `css/` – custom styles
 - `images/` – thumbnails, diagrams, photos
-- `projects/` – projects specific pages. Project pages have only reference to the projects.html to make them minimalistic and project oriented
+- `projects/` – projects specific pages. minimalistic and project oriented
 
 ## Deployment
 This site is automatically published via GitHub Pages.
