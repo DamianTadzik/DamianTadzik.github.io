@@ -4,7 +4,7 @@ This is the source code for my personal portfolio website hosted via GitHub Page
 ## Project Structure
 - `index.html` – home page
 - `projects.html` – projects overview
-- `about.html` – projects overview
+- `about.html` – about me page with contact and description
 - `css/` – custom styles
 - `js/` – JavaScript (if needed)
 - `images/` – thumbnails, diagrams, photos
