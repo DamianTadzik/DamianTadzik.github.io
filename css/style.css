@@ -1,13 +1,24 @@
 /* === GLOBAL STYLES === */
-body {
-  font-family: sans-serif;
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: sans-serif;
   background: #f9f9f9;
   color: #222;
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
+main {
+  flex: 1;
+  padding: 2rem;
+}
 
 /* === HEADER === */
 header {
@@ -23,16 +34,10 @@ nav a {
   text-decoration: none;
 }
 
-
 /* === MAIN CONTENT === */
-main {
-  padding: 2rem;
-}
-
 section {
   margin-bottom: 2rem;
 }
-
 
 /* === FOOTER === */
 footer {
@@ -41,7 +46,6 @@ footer {
   background: #e0e0e0;
   font-size: 0.9rem;
 }
-
 
 /* === ABOUT SECTION === */
 .about-container {
@@ -70,7 +74,6 @@ img.profile {
   min-width: 300px;
 }
 
-
 /* === PROJECTS SECTION === */
 figure {
   margin: 2rem 0;
@@ -83,10 +86,9 @@ figcaption {
   margin-top: 0.5rem;
 }
 
-/* Styl dla obrazków w figure */
 figure img.project-image {
-  max-width: 800px;    /* maksymalna szerokość */
-  width: 100%;         /* skaluj proporcjonalnie do kontenera */
+  max-width: 800px;
+  width: 100%;
   height: auto;
   border: 2px solid #ccc;
   border-radius: 6px;
