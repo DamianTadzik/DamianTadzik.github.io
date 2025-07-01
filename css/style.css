@@ -94,3 +94,24 @@ figure img.project-image {
   border-radius: 6px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
+
+/* === PROJECTS TAGS SECTION === */
+.tag {
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 8px;
+  color: white;
+  text-transform: none;
+  font-family: sans-serif;
+}
+.tag-ongoing {
+  background-color: #2a9d8f; /* zielono-morski */
+}
+.tag-finished {
+  background-color: #264653; /* ciemny granat */
+}
+.tag-tobedone {
+  background-color: #e76f51; /* czerwień */
+}
