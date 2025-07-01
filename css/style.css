@@ -11,9 +11,9 @@ body {
 
 /* === HEADER === */
 header {
-  background: #003366;
+  background: #6e9cff;
   color: white;
-  padding: 2rem;
+  padding: 1.6rem;
   text-align: center;
 }
 
@@ -72,10 +72,23 @@ img.profile {
 
 
 /* === PROJECTS SECTION === */
-.project-image {
-  max-width: 100%;
+figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+/* Styl dla obrazków w figure */
+figure img.project-image {
+  max-width: 800px;    /* maksymalna szerokość */
+  width: 100%;         /* skaluj proporcjonalnie do kontenera */
+  height: auto;
   border: 2px solid #ccc;
-  border-radius: 8px;
-  margin: 1rem 0;
+  border-radius: 6px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
