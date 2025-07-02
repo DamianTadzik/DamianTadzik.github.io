@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Project Title - Damian Brzana</title>
+  <title>Temperature monitoring for a racing boat motor, motor cooling controller</title>
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
@@ -12,7 +12,7 @@
 </head>
 <body>
   <header>
-    <h1>Project Title</h1>
+    <h1>Temperature monitoring for a racing boat motor, motor cooling controller</h1>
     <nav>
       <a href="../index.html">Homepage</a>
       <a href="../projects.html">My Projects</a>
@@ -22,32 +22,47 @@
 
   <main>
     <section class="project-meta">
-      <p><strong>Date:</strong> e.g. July 2025</p>
-      <p><strong>Technologies:</strong> e.g. STM32, Matlab, C++</p>
+      <p><strong>Date:</strong>April - May 2024</p>
+      <p><strong>Technologies:</strong>STM32, Embedded C, ADC, LUT linear interpolation, CAN, CAN Tools DBC, NTC thermistor, Automatic control</p>
     </section>
 
     <section class="project-description">
       <h2>Overview</h2>
-      <p>Short summary: goal, purpose, and where it was done (course, thesis, hobby, science club).</p>
+      <p>
+        The goal of this project was to develop a robust temperature monitoring system for the BLDC motor windings on a solar-powered racing boat.
+        This was part of an ongoing initiative within the <strong>AGH Solar Boat</strong> student research group.
+        The motivation stemmed from a failure during the 2022 Monaco competition, where a faulty thermistor with an unknown characteristic led to a complete loss of thermal feedback.
+        As a result, the helmsman unknowingly overheated the motor, leading to a critical failure during the race.
+      </p>
+      <p>
+        To improve safety and system reliability, I proposed installing multiple NTC thermistors directly into the stator windings to provide redundant temperature feedback.
+        Additionally, I initiated the implementation of an automatic cooling pump controller, removing the need for manual activation by the helmsman, which had previously led to several instances of human error.
+      </p>
 
       <h2>Technical Highlights</h2>
       <ul>
-        <li>What you did / implemented</li>
-        <li>Interesting challenge</li>
-        <li>Technologies used</li>
+        <li>Introduced redundant temperature sensing by embedding multiple NTC thermistors inside the motor windings.</li>
+        <li>Proposed the software implementation of a lookup table (LUT)-based conversion from ADC values to temperature using linear interpolation.</li>
+        <li>Reviewed and refactored team-written code to improve temperature readout precision — upgraded from whole degrees to two decimal places.</li>
+        <li>Updated the CAN DBC file to reflect higher-resolution scaling for temperature values.</li>
+        <li>Designed and supported the implementation of a proportional controller with hysteresis and saturation, used for temperature-based automatic water pump control.</li>
+        <li>Initiated and coordinated the selection of a high-temperature epoxy adhesive (rated for 120°C) for securing thermistors inside the motor, in collaboration with the composites and electronics team.</li>
       </ul>
 
       <h2>Results</h2>
-      <p>Short summary of the results, the positive and negative</p>
+      <p>
+        The system provided accurate and redundant temperature feedback from multiple thermistors, significantly improving reliability compared to the previous setup.
+        Automatic cooling control was successfully implemented and verified during system testing.
+      </p>
+      <p>
+        Further work may include applying digital filtering (e.g., moving average or low-pass filters) to smooth ADC readings and reduce noise in temperature measurements.
+      </p>
 
       <h2>Gallery</h2>
       <figure>
-        <img src="../images/project_template/placeholder_640x480px.jpg" alt="Project image 640x480" class="project-image" />
-        <figcaption>Figure 1: example image</figcaption>
+        <img src="../images/project_celka_motor_temperature/code_hysteresis_fsm.jpg" alt="Cooling pump control logic, including hysteresis implementation" class="project-image" />
+        <figcaption>Cooling pump control logic, including hysteresis implementation</figcaption>
       </figure>
-      <img src="../images/project_template/placeholder_640x480px.jpg" alt="Project image 640x480" class="project-image" />
-      <img src="../images/project_template/placeholder_800x600px.jpg" alt="Project image 800x600" class="project-image" />
-      <img src="../images/project_template/placeholder_800x600px.jpg" alt="Project image 800x600" class="project-image" />
 
     </section>
   </main>
