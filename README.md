@@ -17,4 +17,5 @@ This site is automatically published via GitHub Pages.
 - [ ] Ensure that the page is secure!!!
 - [x] Ensure that everything is in english, and easy to understand
 - [ ] Add the thanks section somewhere
-- [ ] x
+- [ ] Add the conference to the CV
+- [ ] Listen to the głosóweczki które nagrałem sobie xD
