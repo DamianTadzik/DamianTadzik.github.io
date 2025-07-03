@@ -29,8 +29,8 @@
     <section class="project-description">
       <h2>Overview</h2>
       <p>
-        The purpose of this project was to design and fabricate small-scale demonstration models that reflect the basic architecture of a solar-powered hydrofoil racing boat — including components such as the hull, deck, struts with foils, propulsion system, and photovoltaic panel.
-        These models were developed as part of the <strong>AGH Solar Boat</strong> initiative for use at the <strong>Osaka Expo 2025</strong> as well as in showcases and technical presentations.
+        The purpose of this project was to design and fabricate small-scale demonstration models that reflect the basic architecture of a solar-powered hydrofoil racing boat — including the hull, deck, struts with foils, propulsion system, and photovoltaic panel.
+        These models were developed as part of the <strong>AGH Solar Boat</strong> initiative for use at the <strong>Osaka Expo 2025</strong>, as well as for showcases, presentations, and workshops.
       </p>
       <p>
         The main educational goal was to demonstrate the conversion of solar energy into mechanical motion by driving a small propeller mounted on a small DC motor directly from a solar panel.
@@ -38,56 +38,59 @@
         They also serve as meaningful gifts for sponsors and partners.
       </p>
       <p>
-        An extended version of the model included a miniature propulsion system and custom PCB with onboard electronics based on an <strong>ESP32 Wi-Fi microcontroller</strong>, allowing for remote steering via a web interface.
-        These interactive boats were designed to operate in environments such as small indoor water tanks, making them ideal for event booths and educational workshops.
+        An extended version of the model included onboard electronics with an <strong>ESP32 Wi-Fi microcontroller</strong> and a custom PCB, enabling remote steering via a web interface. These interactive boats were capable of operation in small containers, making them ideal demonstrators for exhibition environments.
       </p>
 
       <h2>Technical Highlights</h2>
       <ul>
-        <li>What you did / implemented</li>
-        <p>
-          The project began in response to a proposal by the AGH Solar Boat supervisor to prepare workshops for Osaka Expo 2025. I proposed the idea of creating small, modular, visually appealing demonstration boats equipped with photovoltaic panels and a small DC motor.
-        </p>
-        <p>
-          I determined the appropriate size of the model to ensure it would be compatible with my 3D printer and the selected miniature coreless DC motors and PV panels. I also verified that the motor could be powered directly from the panel under a strong light source.
-        </p>
-        <p>
-          I developed a CAD model and iteratively refined it through rapid prototyping to optimize the geometry, dimensions, and component fits. I then manufactured several units of the basic demonstration boat.
-        </p>
-        <p>
-          To enable remote control and water operation, I selected the electronics: an ESP32, H-bridge motor driver, steering servo, and a Li-Ion battery. I first built a prototype on a universal soldering board and designed a proper PCB in EasyEDA.
-        </p>
-        <p>
-          The PCB included INA229 ICs for monitoring battery and PV voltages, a basic DC-DC converter for the panel, an SSD1306 OLED display, and protective elements for safe battery operation.
-        </p>
-        <p>
-          I wrote the firmware and a web interface for the ESP32-based control. I also updated the mechanical model to accommodate the servo, included a bearing for the steering strut, and integrated the battery and PCB inside the hull.
-        </p>
-        <p>
-          The complete model was tested in water during trials of the Solar Boat team’s autonomous vessel.
-        </p>
+        <li><strong>What you did / implemented</strong></li>
+        <ul>
+          <li>Proposed and initiated the project based on Osaka Expo 2025 workshop goals set by the AGH Solar Boat supervisor.</li>
+          <li>Designed a 3D-printable boat model sized to match available PV panels and miniature coreless DC motors.</li>
+          <li>Validated that the PV panel could directly power the motor under strong lighting.</li>
+          <li>Created a parametric CAD model and refined it through multiple 3D-printed prototypes for proper fit and performance.</li>
+          <li>Built several units of the passive PV-powered demonstrator.</li>
+          <li>Selected electronics (ESP32, H-bridge, servo, Li-Ion battery) for a motorized RC-capable version.</li>
+          <li>Developed a PCB in EasyEDA, starting with a perfboard prototype.</li>
+          <li>Integrated INA229 current/voltage sensors, SSD1306 OLED display, battery protection, and a basic PV DC-DC converter.</li>
+          <li>Wrote firmware and a custom web interface for Wi-Fi steering via the ESP32.</li>
+          <li>Redesigned the hull to house a steering mechanism with bearing, Li-Ion cell, servo, and full PCB integration.</li>
+          <li>Conducted functional tests in a water tank during autonomous boat trials.</li>
+        </ul>
 
-        <li>Interesting challenge</li>
-        A key challenge was integrating multiple functions—motor control, PV monitoring, battery protection, and remote interface—into a single compact PCB while keeping the form factor suitable for a small model boat.
-        Mechanically, the biggest issue was designing a steering system small and precise enough to fit into the hull, including a reliable bearing and linkage to the rudder strut.
-        From a firmware perspective, creating a responsive, user-friendly Wi-Fi interface on the ESP32 that could run on constrained hardware was also non-trivial.
+        <li><strong>Interesting challenge</strong></li>
+        <ul>
+          <li>PCB layout constraints: fitting full monitoring and control circuitry into a compact board for a tiny hull space.</li>
+          <li>Mechanical packaging: integrating the rudder linkage and bearings within the model’s limited internal volume.</li>
+          <li>Firmware/UI: designing a responsive, minimalist Wi-Fi interface on a low-resource embedded system.</li>
+        </ul>
 
-        <li>Technologies used</li>
-        3D printing (FDM), Fusion 360 for CAD, EasyEDA for PCB design, ESP32 with ESP-IDF and Arduino framework, I2C peripherals (SSD1306, INA229), Li-Ion battery handling and protection, H-bridge DC motor driver, Wi-Fi interface (HTML + JS), and soldered prototyping on perfboard.
+        <li><strong>Technologies used</strong></li>
+        <ul>
+          <li>3D Printing (FDM)</li>
+          <li>Fusion 360 (CAD modeling)</li>
+          <li>EasyEDA (PCB design)</li>
+          <li>ESP32 with ESP-IDF and Arduino framework</li>
+          <li>I2C peripherals: INA229, SSD1306</li>
+          <li>DC-DC converter, Li-Ion battery protection circuits</li>
+          <li>Wi-Fi control interface (HTML + JS)</li>
+          <li>Perfboard prototyping and soldering</li>
+        </ul>
       </ul>
 
       <h2>Results</h2>
-      <p>Short summary of the results, the positive and negative</p>
+      <p>
+        The passive models reliably demonstrated PV-to-mechanical energy conversion and were successfully used in outreach events and presentations.
+        The Wi-Fi-controlled version performed well in live demos, operated stably in small test tanks, and provided hands-on interactivity during workshops.
+        Limitations included limited power output under indoor lighting and tight space constraints that required careful tuning of every subsystem.
+      </p>
+
 
       <h2>Gallery</h2>
       <figure>
         <img src="../images/project_template/placeholder_640x480px.jpg" alt="Project image 640x480" class="project-image" />
         <figcaption>Figure 1: example image</figcaption>
       </figure>
-      <img src="../images/project_template/placeholder_640x480px.jpg" alt="Project image 640x480" class="project-image" />
-      <img src="../images/project_template/placeholder_800x600px.jpg" alt="Project image 800x600" class="project-image" />
-      <img src="../images/project_template/placeholder_800x600px.jpg" alt="Project image 800x600" class="project-image" />
-
     </section>
   </main>
 
