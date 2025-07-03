@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Project Title - Damian Brzana</title>
+  <title>Project Title | Damian Brzana</title>
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
@@ -14,13 +14,17 @@
   <header>
     <h1>Project Title</h1>
     <nav>
-      <a href="../index.html">Homepage</a>
-      <a href="../projects.html">My Projects</a>
-      <a href="../about.html">About Me</a>
+      <a href="index.html">Homepage</a>
+      <a href="projects.html">My Projects</a>
+      <a href="about.html">About Me</a>
     </nav>
   </header>
 
-  <main>
+  <main id="project-container">
+    <!-- Dynamic content gets injected here -->
+  </main>
+  
+  <!-- LEGACY <main>
     <section class="project-meta">
       <p><strong>Date:</strong> e.g. July 2025</p>
       <p><strong>Technologies:</strong> e.g. STM32, Matlab, C++</p>
@@ -50,10 +54,11 @@
       <img src="../images/project_template/placeholder_800x600px.jpg" alt="Project image 800x600" class="project-image" />
 
     </section>
-  </main>
+  </main> -->
 
   <footer>
     &copy; 2025 Damian Brzana
   </footer>
+  <script src="../js/project_loader.js"></script>
 </body>
 </html>
