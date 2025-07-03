@@ -24,15 +24,15 @@
 
   "images": [
     {
-      "src": "../images/placeholder_640x480px.jpg",
+      "src": "../images/project_sample/placeholder_640x480px.jpg",
       "caption": "Figure 1: example"
     },
     {
-      "src": "../images/placeholder_800x600px.jpg",
+      "src": "../images/project_sample/placeholder_800x600px.jpg",
       "caption": "Figure 2: example"
     },
     {
-      "src": "../images/placeholder_640x480px.jpg",
+      "src": "../images/project_sample/placeholder_640x480px.jpg",
       "caption": "Figure 3: example"
     }
   ]

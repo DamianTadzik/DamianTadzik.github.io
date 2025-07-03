@@ -110,7 +110,7 @@
 
   {
     "title": "Sample project",
-    "jsonPath": "projects/project_sample.json",
+    "jsonPath": "../projects/project_sample.json",
     "section": "Sample Section",
     "tag": ""
   }
