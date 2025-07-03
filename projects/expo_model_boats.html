@@ -22,19 +22,58 @@
 
   <main>
     <section class="project-meta">
-      <p><strong>Date:</strong> e.g. July 2025</p>
-      <p><strong>Technologies:</strong> e.g. STM32, Matlab, C++</p>
+      <p><strong>Date:</strong>February-April 2025</p>
+      <p><strong>Technologies:</strong>3D printing, Onshape, Fusion 360, ESP32, PWM motor control, PV panel, Li-ion battery, CAD, PCB design, SMD Soldering, Embedded C, WebSockets</p>
     </section>
 
     <section class="project-description">
       <h2>Overview</h2>
-      <p>Short summary: goal, purpose, and where it was done (course, thesis, hobby, science club).</p>
+      <p>
+        The purpose of this project was to design and fabricate small-scale demonstration models that reflect the basic architecture of a solar-powered hydrofoil racing boat — including components such as the hull, deck, struts with foils, propulsion system, and photovoltaic panel.
+        These models were developed as part of the <strong>AGH Solar Boat</strong> initiative for use at the <strong>Osaka Expo 2025</strong> as well as in showcases and technical presentations.
+      </p>
+      <p>
+        The main educational goal was to demonstrate the conversion of solar energy into mechanical motion by driving a small propeller mounted on a small DC motor directly from a solar panel.
+        The models were designed to be visually appealing, mechanically simple, and easy to assemble or mass-produce for hands-on demonstrations.
+        They also serve as meaningful gifts for sponsors and partners.
+      </p>
+      <p>
+        An extended version of the model included a miniature propulsion system and custom PCB with onboard electronics based on an <strong>ESP32 Wi-Fi microcontroller</strong>, allowing for remote steering via a web interface.
+        These interactive boats were designed to operate in environments such as small indoor water tanks, making them ideal for event booths and educational workshops.
+      </p>
 
       <h2>Technical Highlights</h2>
       <ul>
         <li>What you did / implemented</li>
+        <p>
+          The project began in response to a proposal by the AGH Solar Boat supervisor to prepare workshops for Osaka Expo 2025. I proposed the idea of creating small, modular, visually appealing demonstration boats equipped with photovoltaic panels and a small DC motor.
+        </p>
+        <p>
+          I determined the appropriate size of the model to ensure it would be compatible with my 3D printer and the selected miniature coreless DC motors and PV panels. I also verified that the motor could be powered directly from the panel under a strong light source.
+        </p>
+        <p>
+          I developed a CAD model and iteratively refined it through rapid prototyping to optimize the geometry, dimensions, and component fits. I then manufactured several units of the basic demonstration boat.
+        </p>
+        <p>
+          To enable remote control and water operation, I selected the electronics: an ESP32, H-bridge motor driver, steering servo, and a Li-Ion battery. I first built a prototype on a universal soldering board and designed a proper PCB in EasyEDA.
+        </p>
+        <p>
+          The PCB included INA229 ICs for monitoring battery and PV voltages, a basic DC-DC converter for the panel, an SSD1306 OLED display, and protective elements for safe battery operation.
+        </p>
+        <p>
+          I wrote the firmware and a web interface for the ESP32-based control. I also updated the mechanical model to accommodate the servo, included a bearing for the steering strut, and integrated the battery and PCB inside the hull.
+        </p>
+        <p>
+          The complete model was tested in water during trials of the Solar Boat team’s autonomous vessel.
+        </p>
+
         <li>Interesting challenge</li>
+        A key challenge was integrating multiple functions—motor control, PV monitoring, battery protection, and remote interface—into a single compact PCB while keeping the form factor suitable for a small model boat.
+        Mechanically, the biggest issue was designing a steering system small and precise enough to fit into the hull, including a reliable bearing and linkage to the rudder strut.
+        From a firmware perspective, creating a responsive, user-friendly Wi-Fi interface on the ESP32 that could run on constrained hardware was also non-trivial.
+
         <li>Technologies used</li>
+        3D printing (FDM), Fusion 360 for CAD, EasyEDA for PCB design, ESP32 with ESP-IDF and Arduino framework, I2C peripherals (SSD1306, INA229), Li-Ion battery handling and protection, H-bridge DC motor driver, Wi-Fi interface (HTML + JS), and soldered prototyping on perfboard.
       </ul>
 
       <h2>Results</h2>
