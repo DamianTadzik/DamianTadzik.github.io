@@ -35,16 +35,16 @@
 
   "images": [
     {
-      "src": "../images/project_flight_height_indicator_ultrasonic_sensors/.jpg",
-      "caption": "Figure 1: Sensors mounted on the bow"
+      "src": "../images/project_flight_height_indicator_ultrasonic_sensors/20230823_KSAF_AGH_SolarBoatBalaton_AJaszczur_041.jpg",
+      "caption": "Figure 1: Ultrasonic sensors and LED indicator module mounted on the bow (photo by KSAF AGH)"
     },
     {
-      "src": "../images/project_flight_height_indicator_ultrasonic_sensors/.jpg",
-      "caption": "Figure 2: Indicator in the FOV "
+      "src": "../images/project_flight_height_indicator_ultrasonic_sensors/20230826_KSAF_AGH_SolarBoatBalaton_AJaszczur_011.jpg",
+      "caption": "Figure 2: Celka in flight on Lake Balaton; sensors visible on the bow (photo by KSAF AGH)"
     },
     {
-      "src": "../images/project_flight_height_indicator_ultrasonic_sensors/.jpg",
-      "caption": "Figure 3: TODO"
+      "src": "../images/project_flight_height_indicator_ultrasonic_sensors/indicator_on_the_bow.gif",
+      "caption": "Figure 3: LED flight height indicator in the helmsman's field of view during the endurance race at Lake Balaton 2023"
     }
   ]
 }
