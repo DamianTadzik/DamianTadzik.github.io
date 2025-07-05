@@ -45,6 +45,12 @@
   },
 
   {
+    "title": "Hardware and Software Upgrade of Racing Boat Steering Wheel Interface",
+    "jsonPath": "projects/project_celka_steering_wheel.json",
+    "section": "2024",
+    "tag": "Finished"
+  },
+  {
     "title": "Embedded RPM Measurement for a Racing Boat Motor Using an IR Sensor",
     "jsonPath": "projects/project_celka_motor_tachometr.json",
     "section": "2024",
@@ -75,13 +81,6 @@
     "section": "2023/2024",
     "tag": "ToBeDone"
   },
-  {
-    "title": "Celka steering wheel",
-    "jsonPath": "projects/celka_steering_wheel.json",
-    "section": "2023/2024",
-    "tag": "ToBeDone"
-  },
-
 
   {
     "title": "Flight height indicator based on ultrasonic sensors for solar racing hydrofoil",

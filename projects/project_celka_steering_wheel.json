@@ -1,0 +1,48 @@
+{
+  "title": "Hardware and Software Upgrade of Racing Boat Steering Wheel Interface",
+
+  "date": "June 2024",
+  "technologies": [
+    "STM32F446",
+    "C programming",
+    "SPI communication",
+    "User interface design",
+    "e-paper display",
+    "CAD",
+    "milling",
+    "3D printing"
+  ],
+
+  "overview": [
+    "This project was carried out within the AGH Solar Boat student research group as a improvement to the helmsman's user experience.",
+    "The goal was to upgrade the steering wheel interface by replacing the small, low-visibility LCD display with a significantly larger e-paper screen, improving readability in bright conditions.",
+    "In addition to the hardware upgrade, the parameter configuration and display layout were redesigned to provide a cleaner and more intuitive user interface, reducing complexity during operation."
+  ],
+
+  "highlights": [
+    "Selected and purchased a suitable 3.52-inch Waveshare e-paper display.",
+    "Developed a custom driver from scratch due to incomplete and beta-stage manufacturer documentation.",
+    "Designed a new user interface layout and parameter arrangement for improved usability.",
+    "Created a new front panel in CAD to fit the larger display, then manufactured mounts using 3D printing and CNC.",
+    "Replaced the separate button and encoder with a single combined encoder-button component for menu navigation.",
+    "Integrated the new display and controls into the existing steering wheel, removing the old display."
+  ],
+
+  "results": [
+    "The new, larger e-paper display significantly improved the helmsman's experience by displaying all key values on a single screen.",
+    "Writing the custom driver was the main technical challenge due to incomplete documentation.",
+    "Future improvements could include optimizing the firmware and exploring alternative microcontrollers for enhanced performance."
+  ],
+
+
+  "images": [
+    {
+      "src": "../images/project_celka_steering_wheel/new_display_startup.gif",
+      "caption": "Figure 1: New steering wheel interface showing startup sequence"
+    },
+    {
+      "src": "../images/project_celka_steering_wheel/old_display.gif",
+      "caption": "Figure 2: Original low-visibility display limited to showing two values simultaneously"
+    }
+  ]
+}
