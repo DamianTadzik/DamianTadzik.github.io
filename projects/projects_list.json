@@ -48,6 +48,14 @@
     "section": "2023/2024",
     "tag": "Finished"
   },
+
+  {
+    "title": "Temperature monitoring for a racing boat motor, motor cooling controller",
+    "jsonPath": "projects/project_celka_motor_temperature.json",
+    "section": "2024",
+    "tag": "Finished"
+  },
+
   {
     "title": "Barka Robotic Arm and Water cannon",
     "jsonPath": "projects/barka_robotic_arm_water_cannon.json",
@@ -90,12 +98,7 @@
     "section": "2022/2023",
     "tag": "ToBeDone"
   },
-  {
-    "title": "Temperature monitoring for a racing boat motor, motor cooling controller",
-    "jsonPath": "projects/project_celka_motor_temperature.json",
-    "section": "2022/2023",
-    "tag": "Finished"
-  },
+
   {
     "title": "Thermometer for water and the air temperature for outdoor Jacuzzi",
     "jsonPath": "projects/thermometer_water_air_jacuzzi.json",

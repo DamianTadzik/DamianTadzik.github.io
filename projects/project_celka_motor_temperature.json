@@ -1,0 +1,46 @@
+{
+  "title": "Temperature monitoring for a racing boat motor, motor cooling controller",
+
+  "date": "April - May 2024",
+  "technologies": [
+    "STM32",
+    "Embedded C",
+    "ADC",
+    "LUT linear interpolation",
+    "CAN",
+    "CAN Tools DBC",
+    "NTC thermistor",
+    "Automatic control"
+  ],
+
+  "overview": [
+    "The goal of this project was to develop a robust temperature monitoring system for the BLDC motor windings on a solar-powered racing boat. This work was carried out as part of the AGH Solar Boat student research group.",
+    "The motivation came from a failure during the 2022 Monaco competition, where a thermistor with an unknown characteristic caused the loss of thermal feedback, leading to the motor overheating and race failure.",
+    "To increase safety and reliability, multiple NTC thermistors were proposed for direct stator installation to provide redundant temperature feedback. An automatic cooling pump controller was also introduced to eliminate human error from manual activation."
+  ],
+
+  "highlights": [
+    "Introduced redundant temperature sensing by embedding multiple NTC thermistors inside the motor windings.",
+    "Proposed the software implementation of a lookup table (LUT)-based conversion from ADC values to temperature using linear interpolation.",
+    "Reviewed and refactored team-written code to improve temperature readout precision — upgraded from whole degrees to two decimal places.",
+    "Updated the CAN DBC file to reflect higher-resolution scaling for temperature values.",
+    "Designed and supported the implementation of a proportional controller with hysteresis and saturation, used for temperature-based automatic water pump control.",
+    "Initiated and coordinated the selection of a high-temperature epoxy adhesive (rated for 120°C) for securing thermistors inside the motor, in collaboration with the composites and electronics team."
+  ],
+
+  "results": [
+    "The system provided accurate and redundant temperature feedback from multiple thermistors, significantly improving reliability compared to the previous setup. Automatic cooling control was successfully implemented and verified during system testing.",
+    "Further work may include applying digital filtering (e.g., moving average or low-pass filters) to smooth ADC readings and reduce noise in temperature measurements."
+  ],
+
+  "images": [
+    {
+      "src": "../images/project_celka_motor_temperature/code_calculate_pwm.jpg",
+      "caption": "Figure 1: Embedded C code that calculates the PWM value based on motor temperature"
+    },
+    {
+      "src": "../images/project_celka_motor_temperature/code_hysteresis_fsm.jpg",
+      "caption": "Figure 2: Embedded C implementation of the hysteresis-based state machine"
+    }
+  ]
+}
