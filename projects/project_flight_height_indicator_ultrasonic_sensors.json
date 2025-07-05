@@ -1,0 +1,50 @@
+{
+  "title": "Flight height indicator based on ultrasonic sensors for solar racing hydrofoil",
+
+  "date": "June 2023",
+  "technologies": [
+    "RKS32 (STM32 clone)",
+    "JSN-SR04T ultrasonic sensors",
+    "LED indicators",
+    "Transistor switching",
+    "C (bare-metal / low-level firmware)",
+    "Custom PCB",
+    "Sensor integration",
+    "Embedded systems"
+  ],
+
+  "overview": [
+    "The idea for this project emerged right after building the first iteration of the hydrofoil system for the solar racing boat. Its purpose was to provide real-time feedback to the pilot about the current flight height above water.",
+    "I was the pilot at that time, and I came up with the concept because it was difficult to judge the height while sitting inside the boat during flight.",
+    "The system measures the distance between the boat's bow and the water surface and signals the pilot whether to increase, decrease, or maintain the current height."
+  ],
+
+  "highlights": [
+    "Proposed the idea, selected the microcontroller, and designed the hardware using components available in the workshop.",
+    "Used a Chinese RKS32 STM32 clone (Bluepill), three JSN-SR04T waterproof ultrasonic sensors, and red/green LEDs switched via transistors.",
+    "Designed and built the mechanical housing and sensor mounting system on the boat’s bow.",
+    "Worked with a teammate who implemented the firmware for reading sensor data and controlling the LED display; we jointly tuned the threshold ranges.",
+    "A notable challenge was configuring GPIO and peripherals on the RKS32 chip, which lacked several features found in genuine STM32 devices."
+  ],
+
+  "results": [
+    "The indicator helped the pilot fly the boat more smoothly and maintain stable altitude during hydrofoil operation.",
+    "For future versions, it would be beneficial to use a better microcontroller and more accurate sensors distributed across multiple points on the hull.",
+    "The system could also be integrated with an automatic flight controller to enable closed-loop altitude stabilization."
+  ],
+
+  "images": [
+    {
+      "src": "../images/project_flight_height_indicator_ultrasonic_sensors/.jpg",
+      "caption": "Figure 1: Sensors mounted on the bow"
+    },
+    {
+      "src": "../images/project_flight_height_indicator_ultrasonic_sensors/.jpg",
+      "caption": "Figure 2: Indicator in the FOV "
+    },
+    {
+      "src": "../images/project_flight_height_indicator_ultrasonic_sensors/.jpg",
+      "caption": "Figure 3: TODO"
+    }
+  ]
+}

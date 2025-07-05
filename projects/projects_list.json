@@ -81,11 +81,13 @@
     "section": "2023/2024",
     "tag": "ToBeDone"
   },
+
+
   {
-    "title": "Flight height indicator based on ultrasonic sensors",
-    "jsonPath": "projects/flight_height_indicator_ultrasonic_sensors.json",
-    "section": "2022/2023",
-    "tag": "ToBeDone"
+    "title": "Flight height indicator based on ultrasonic sensors for solar racing hydrofoil",
+    "jsonPath": "projects/project_flight_height_indicator_ultrasonic_sensors.json",
+    "section": "2023",
+    "tag": "AlmostDone"
   },
   {
     "title": "Composite heater, and heater controller",
@@ -93,6 +95,7 @@
     "section": "2023",
     "tag": "AlmostDone"
   },
+
   {
     "title": "Self balancing two wheeled inverted pendulum robot",
     "jsonPath": "projects/self_balancing_two_wheeled_inverted_pendulum_robot.json",
