@@ -13,10 +13,10 @@
   },
 
   {
-    "title": "Simple robotic arm dynamics and controller model (Modelling of CPS)",
+    "title": "Simple 2-DOF robotic arm dynamics and controller model in Matlab (Modelling of CPS course)",
     "jsonPath": "projects/modelling_of_CPS_robotic_arm_dynamics.json",
     "section": "2025",
-    "tag": "ToBeDone"
+    "tag": "Finished"
   },
   {
     "title": "3D-Printed Educational Boats with PV and Wi-Fi Steering (Osaka Expo 2025 Demonstrator)",
@@ -24,6 +24,7 @@
     "section": "2025",
     "tag": "Finished"
   },
+
   {
     "title": "Barka embedded system software (BMS and Control)",
     "jsonPath": "projects/barka_embedded_system_software.json",
