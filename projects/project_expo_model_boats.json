@@ -48,12 +48,20 @@
       "caption": "Figure 3: Battery, servo, and bearing components visible within the boat"
     },
     {
+      "src": "../images/project_expo_model_boats/MicroCelka_tests_alongside_Barka.gif",
+      "caption": "Figure 4: Model boat 'MicroCelka' undergoing tests on a calm lake alongside the autonomous boat 'Barka', as part of AGH Solar Boat student research group activities"
+    },
+    {
+      "src": "../images/project_expo_model_boats/MicroCelka_tests_in_workshop.gif",
+      "caption": "Figure 5: Initial tests of the model boat's propulsion system and remote control conducted in the workshop"
+    },
+    {
       "src": "../images/project_expo_model_boats/UI.jpg",
-      "caption": "Figure 4: Mobile-friendly user interface for Wi-Fi-based boat control"
+      "caption": "Figure 6: Mobile-friendly user interface for Wi-Fi-based boat control"
     },
     {
       "src": "../images/project_expo_model_boats/EXPLODED.png",
-      "caption": "Figure 5: Exploded CAD view of the educational boat model assembly"
+      "caption": "Figure 7: Exploded CAD view of the educational boat model assembly"
     }
   ]
 }

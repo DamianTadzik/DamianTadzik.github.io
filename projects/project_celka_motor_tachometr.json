@@ -33,6 +33,10 @@
     {
       "src": "../images/project_celka_motor_tachometr/sensor_with_engine.jpg",
       "caption": "Figure 2: Infrared sensor positioned near the motor for non-intrusive RPM measurement"
+    },
+    {
+      "src": "../images/project_celka_motor_tachometr/code_c_tachometer_functions.jpg",
+      "caption": "Figure 3: Fragments of code that allows to read the RPMs, and two other should be included in the appropriate ISR's"
     }
   ]
 }

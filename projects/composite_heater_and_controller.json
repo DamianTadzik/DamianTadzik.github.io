@@ -36,16 +36,12 @@
 
   "images": [
     {
-      "src": "../images/project_sample/placeholder_640x480px.jpg",
-      "caption": "Figure 1: example"
+      "src": "../images/composite_heater_and_controller/controller_pcb_prototype.jpg",
+      "caption": "Figure 1: Assembled prototype of the controller PCB backside; solid-state relays (SSRs) visible in the background"
     },
     {
-      "src": "../images/project_sample/placeholder_800x600px.jpg",
-      "caption": "Figure 2: example"
-    },
-    {
-      "src": "../images/project_sample/placeholder_640x480px.jpg",
-      "caption": "Figure 3: example"
+      "src": "../images/composite_heater_and_controller/TODO.jpg",
+      "caption": "Figure 2: User interface with display and control buttons (photo pending replacement)"
     }
   ]
 }
