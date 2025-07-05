@@ -1,0 +1,51 @@
+{
+  "title": "Composite heater hardware, electronics, software and controller",
+
+  "date": "December 2022 - January 2023",
+  "technologies": [
+    "Arduino",
+    "NTC thermistors",
+    "GPIO",
+    "Solid State Relay (SSR)",
+    "Overcurrent and residual current protection",
+    "Embedded C"
+  ],
+
+  "overview": [
+    "The goal was to rebuild the composite heater, reusing only the main structural parts salvaged from the old furnace after the building was demolished one year earlier.",
+    "The project involved purchasing thermal insulation boards and reconstructing the heater.",
+    "As the electrical team coordinator, I was responsible for designing the electrical and control system, including selecting protections (overcurrent, residual current, door safety switches).",
+    "The goal also included designing measurement circuits using NTC thermistors and control circuits with microcontroller GPIO pins controlling transistors, which in turn control SSRs.",
+    "Part of the task was implementing and designing a regulator and a parametric setpoint generator to allow the composite team to set target temperature, heating/cooling rate, and process duration.",
+    "This project was done within the Student Research Group AGH Solar Boat, where I served as the coordinator for electrical and electronics team at the time."
+  ],
+
+  "highlights": [
+    "Coordinated the team on selecting protections and assembling the control cabinet.",
+    "Designed and built the control PCB with buttons and a display as the user interface.",
+    "Developed the entire firmware in Arduino C to speed up development.",
+    "Implemented and manually tuned a PI controller."
+  ],
+
+  "results": [
+    "The furnace enabled manufacturing key boat parts such as pylons, hydrofoils, photovoltaic panels, and many others.",
+    "The furnace has been operating reliably since its completion in January 2023.",
+    "Future work could include creating a MATLAB model of the furnace and optimizing the controller design.",
+    "Additionally, migrating from Arduino to a more capable microcontroller such as ESP or Raspberry Pi would be beneficial."
+  ],
+
+  "images": [
+    {
+      "src": "../images/project_sample/placeholder_640x480px.jpg",
+      "caption": "Figure 1: example"
+    },
+    {
+      "src": "../images/project_sample/placeholder_800x600px.jpg",
+      "caption": "Figure 2: example"
+    },
+    {
+      "src": "../images/project_sample/placeholder_640x480px.jpg",
+      "caption": "Figure 3: example"
+    }
+  ]
+}
