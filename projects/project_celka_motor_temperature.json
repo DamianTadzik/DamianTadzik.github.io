@@ -35,12 +35,16 @@
 
   "images": [
     {
+      "src": "../images/project_celka_motor_temperature/motor_with_thermistors_visible.jpg",
+      "caption": "Figure 1: Electric motor with visible thermistor wiring used for temperature monitoring"
+    },
+    {
       "src": "../images/project_celka_motor_temperature/code_calculate_pwm.jpg",
-      "caption": "Figure 1: Embedded C code that calculates the PWM value based on motor temperature"
+      "caption": "Figure 2: Embedded C code that calculates the PWM value based on motor temperature"
     },
     {
       "src": "../images/project_celka_motor_temperature/code_hysteresis_fsm.jpg",
-      "caption": "Figure 2: Embedded C implementation of the hysteresis-based state machine"
+      "caption": "Figure 3: Embedded C implementation of the hysteresis-based state machine"
     }
   ]
 }
