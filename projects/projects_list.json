@@ -11,17 +11,18 @@
     "section": "Ongoing",
     "tag": "Ongoing"
   },
+
   {
     "title": "Simple robotic arm dynamics and controller model (Modelling of CPS)",
     "jsonPath": "projects/modelling_of_CPS_robotic_arm_dynamics.json",
     "section": "2025",
-    "tag": "Finished"
+    "tag": "ToBeDone"
   },
   {
     "title": "3D-Printed Educational Boats with PV and Wi-Fi Steering (Osaka Expo 2025 Demonstrator)",
-    "jsonPath": "projects/expo_model_boats.json",
-    "section": "2024/2025",
-    "tag": "ToBeDone"
+    "jsonPath": "projects/project_expo_model_boats.json",
+    "section": "2025",
+    "tag": "Finished"
   },
   {
     "title": "Barka embedded system software (BMS and Control)",
