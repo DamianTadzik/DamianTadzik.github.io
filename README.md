@@ -24,8 +24,8 @@ This site is automatically published via GitHub Pages.
 
 ## TODO List
 - [x] Think of projects to include
-- [ ] Ensure that the page is secure!!!
+- [x] Ensure that the page is secure!!!
 - [x] Ensure that everything is in english, and easy to understand
 - [ ] Add the thanks section somewhere
 - [ ] Add the conference to the CV
-- [ ] Listen to the głosóweczki które nagrałem sobie xD
+- [ ] References to obtain
