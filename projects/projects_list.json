@@ -91,7 +91,7 @@
     "title": "Composite heater, and heater controller",
     "jsonPath": "projects/composite_heater_and_controller.json",
     "section": "2023",
-    "tag": "ToBeDone"
+    "tag": "AlmostDone"
   },
   {
     "title": "Self balancing two wheeled inverted pendulum robot",

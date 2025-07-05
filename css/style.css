@@ -114,11 +114,14 @@ figure img.project-image {
   font-family: sans-serif;
 }
 .tag-ongoing {
-  background-color: #2a9d8f; /* zielono-morski */
+  background-color: #264653; /* ocean green */
 }
 .tag-finished {
-  background-color: #264653; /* ciemny granat */
+  background-color: #2a9d8f; /* dark blue */
 }
 .tag-tobedone {
-  background-color: #e76f51; /* czerwień */
+  background-color: #e76f51; /* red */
+}
+.tag-almostdone {
+  background-color: #a7c923; /* yellow */
 }
