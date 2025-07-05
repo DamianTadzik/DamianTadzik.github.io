@@ -1,0 +1,60 @@
+{
+  "title": "Simple 2-DOF robotic arm dynamics and controller model in Matlab (Modelling of CPS course)",
+
+  "date": "April-May 2025",
+  "technologies": [
+    "MATLAB",
+    "Simulink",
+    "Symbolic Math Toolbox",
+    "State-Space Modeling",
+    "Control Theory",
+    "LQR",
+    "Gain Scheduling"
+  ],
+
+  "overview": [
+    "The project focused on deriving and simulating a nonlinear dynamic model of a simple two-degree-of-freedom robotic arm.",
+    "It was completed as part of the 'Modelling of Cyber-Physical Systems' course at AGH University of Science and Technology.",
+    "The goal was to understand control-oriented modeling, perform nonlinear-to-linear approximations, and explore gain scheduling techniques based on workspace partitioning."
+  ],
+
+  "highlights": [
+    "Derived nonlinear dynamic equations using the Lagrange formalism and MATLAB Symbolic Toolbox.",
+    "Partitioned the robotic arm workspace into regions with predefined center points and boundaries.",
+    "Performed local linearization in each region and computed dedicated LQR gain matrices.",
+    "Implemented the nonlinear system equations in Simulink for simulation purposes.",
+    "Designed a control system based first on a single LQR controller, later extended to a gain scheduling approach.",
+    "Created a switching mechanism to change active LQR matrices (K) and reference points (x₀, u₀) depending on the robot's current region.",
+    "Utilized variant subsystems in Simulink for switching between different plant, controller, and actuator implementations.",
+    "Challenge: Implemented runtime gain scheduling logic using a MATLAB Function block that reads controller data structures from the workspace and updates the active gain."
+  ],
+
+  "results": [
+    "The Simulink model demonstrated nonlinear robotic behavior and successful switching between region-specific LQR controllers.",
+    "The system is modular and cleanly designed, making it reusable for more complex robots or future extensions.",
+    "Planned future work includes creating a Simscape-based physical model of the arm and comparing its behavior to the existing model under identical inputs."
+  ],
+
+  "images": [
+    {
+      "src": "../images/modelling_of_CPS_robotic_arm_dynamics/Figure_workspace_partitioned.png",
+      "caption": "Figure 1: Visualization of the robot's workspace and its partition into regions"
+    },
+    {
+      "src": "../images/modelling_of_CPS_robotic_arm_dynamics/LQR_SCHEDULLING-optimized.gif",
+      "caption": "Figure 2: Animated visualization of the robot's motion and corresponding state-space trajectory"
+    },
+    {
+      "src": "../images/modelling_of_CPS_robotic_arm_dynamics/Simulink_scope_state_space_and_regulation.jpg",
+      "caption": "Figure 3: Simulink scope showing reference and actual trajectories of the state variables"
+    },
+    {
+      "src": "../images/modelling_of_CPS_robotic_arm_dynamics/Simulink_regulator_and_model.jpg",
+      "caption": "Figure 4: Simulink implementation of the dynamic model with variant subsystems (e.g., interchangeable actuators)"
+    },
+    {
+      "src": "../images/modelling_of_CPS_robotic_arm_dynamics/LQR_GAIN_SCHEDULLING_controller.jpg",
+      "caption": "Figure 5: LQR gain scheduling controller implemented in Simulink"
+    }
+  ]
+}

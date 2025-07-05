@@ -1,0 +1,39 @@
+{
+  "title": "Sample project title",
+
+  "date": "sample date July 2025",
+  "technologies": ["CSS", "JS", "HTML", "Github Pages", "JSON"],
+
+  "overview": [
+    "A short summary of the project, the goal, the purpose, where it was done (university, science club) this type of description.",
+    "More paragraphs if needed."
+  ],
+
+  "highlights": [
+    "Technical highlihgts in bullet points.",
+    "What have you done.",
+    "Tell about the process in bullet points here.",
+    "Interesting challenge.",
+    "Remember to replace all text in the json :>"
+  ],
+
+  "results": [
+    "Short summary of the results, the positive and negative.",
+    "Maybe future work."
+  ],
+
+  "images": [
+    {
+      "src": "../images/project_sample/placeholder_640x480px.jpg",
+      "caption": "Figure 1: example"
+    },
+    {
+      "src": "../images/project_sample/placeholder_800x600px.jpg",
+      "caption": "Figure 2: example"
+    },
+    {
+      "src": "../images/project_sample/placeholder_640x480px.jpg",
+      "caption": "Figure 3: example"
+    }
+  ]
+}

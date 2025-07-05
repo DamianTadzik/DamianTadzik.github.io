@@ -1,0 +1,59 @@
+{
+  "title": "3D-Printed Educational Boats with PV and Wi-Fi Steering (Osaka Expo 2025 Demonstrator)",
+
+  "date": "February-April 2025",
+  "technologies": ["3D printing", "Onshape", "Fusion 360", "ESP32", "PWM motor control", "PV panel", "Li-ion battery", "CAD", "PCB design", "SMD Soldering", "Embedded C", "WebSockets"],
+
+  "overview": [
+    "The purpose of this project was to design and fabricate small-scale demonstration models that reflect the basic architecture of a solar-powered hydrofoil racing boat — including the hull, deck, struts with foils, propulsion system, and photovoltaic panel. These models were developed as part of the AGH Solar Boat initiative for use at the Osaka Expo 2025, as well as for showcases, presentations, and workshops.",
+    "The main educational goal was to demonstrate the conversion of solar energy into mechanical motion by driving a small propeller mounted on a small DC motor directly from a solar panel. The models were designed to be visually appealing, mechanically simple, and easy to assemble or mass-produce for hands-on demonstrations. They also serve as meaningful gifts for sponsors and partners.",
+    "An extended version of the model included onboard electronics with an ESP32 Wi-Fi microcontroller and a custom PCB, enabling remote steering via a web interface. These interactive boats were capable of operation in small water bodies, making them ideal demonstrators for exhibition environments."
+  ],
+
+  "highlights": [
+    "Proposed and initiated the project based on the Osaka Expo 2025 workshop objectives defined by AGH Solar Boat leadership.",
+    "Designed a 3D-printable hydrofoil boat model tailored to the dimensions of available photovoltaic panels and miniature coreless DC motors.",
+    "Confirmed that a PV panel could power a DC motor directly under sufficient light conditions.",
+    "Developed a parametric CAD model and iteratively refined it through multiple 3D-printed prototypes to ensure proper fit.",
+    "Fabricated several passive units powered solely by solar panels for hands-on demonstrations.",
+    "Selected and integrated key electronics for an RC-capable version: ESP32, H-bridge motor driver, servo motor, and a single-cell Li-Ion battery.",
+    "Prototyped the circuit using perfboard, then designed a dedicated PCB in EasyEDA for compact integration.",
+    "Implemented monitoring and feedback using an INA229 sensor, SSD1306 OLED display, and basic PV-powered DC-DC conversion circuit.",
+    "Wrote firmware for the ESP32, including a minimalist, responsive Wi-Fi-based web interface for remote control.",
+    "Redesigned the hull to include a steering mechanism, ball bearing support, battery compartment, servo mount, and embedded PCB.",
+    "Performed functional water tank tests as part of AGH Solar Boat's autonomous system development trials.",
+    "Faced PCB layout constraints: fitting monitoring and control circuitry into a small form factor suited for a miniature hull.",
+    "Solved mechanical integration challenges: embedded rudder mechanism and bearing system within a constrained internal volume.",
+    "Designed a lightweight, responsive web interface despite limitations of a resource-constrained embedded microcontroller."
+  ],
+
+  "results": [
+    "The passive models reliably demonstrated PV-to-mechanical energy conversion and were successfully used in outreach events and presentations.",
+    "The Wi-Fi-controlled version performed well in live demos, operated stably in small test tanks, and provided hands-on interactivity during workshops.",
+    "At the Osaka Expo, visitors were highly impressed by the simplicity and educational value of the foldable boat models, which sparked engaging discussions.",
+    "After the Expo, the boats were presented to key academic and governmental figures, including the Minister and Deputy Minister of Education, as a gifts."
+  ],
+
+  "images": [
+    {
+      "src": "../images/project_expo_model_boats/EXPO_WORKSHOP.jpg",
+      "caption": "Figure 1: Demonstrator models in use during workshops at the Osaka Expo 2025"
+    },
+    {
+      "src": "../images/project_expo_model_boats/PCB.jpg",
+      "caption": "Figure 2: Fully assembled and functional PCB integrated into the boat model"
+    },
+    {
+      "src": "../images/project_expo_model_boats/SERVO_BATTERY_BEARING.jpg",
+      "caption": "Figure 3: Battery, servo, and bearing components visible within the boat"
+    },
+    {
+      "src": "../images/project_expo_model_boats/UI.jpg",
+      "caption": "Figure 4: Mobile-friendly user interface for Wi-Fi-based boat control"
+    },
+    {
+      "src": "../images/project_expo_model_boats/EXPLODED.png",
+      "caption": "Figure 5: Exploded CAD view of the educational boat model assembly"
+    }
+  ]
+}

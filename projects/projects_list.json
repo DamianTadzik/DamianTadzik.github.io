@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Masters thesis",
+    "jsonPath": "projects/masters_thesis.json",
+    "section": "Ongoing",
+    "tag": "Ongoing"
+  },
+  {
+    "title": "Composite Heater - object identification",
+    "jsonPath": "projects/composite_heater_object_identification.json",
+    "section": "Ongoing",
+    "tag": "Ongoing"
+  },
+
+  {
+    "title": "Simple 2-DOF robotic arm dynamics and controller model in Matlab (Modelling of CPS course)",
+    "jsonPath": "projects/modelling_of_CPS_robotic_arm_dynamics.json",
+    "section": "2025",
+    "tag": "Finished"
+  },
+  {
+    "title": "3D-Printed Educational Boats with PV and Wi-Fi Steering (Osaka Expo 2025 Demonstrator)",
+    "jsonPath": "projects/project_expo_model_boats.json",
+    "section": "2025",
+    "tag": "Finished"
+  },
+
+  {
+    "title": "Barka embedded system software (BMS and Control)",
+    "jsonPath": "projects/barka_embedded_system_software.json",
+    "section": "2024/2025",
+    "tag": "ToBeDone"
+  },
+  {
+    "title": "Barka Ball launcher",
+    "jsonPath": "projects/barka_ball_launcher.json",
+    "section": "2024/2025",
+    "tag": "ToBeDone"
+  },
+  {
+    "title": "Bachelors thesis (CAN Logger)",
+    "jsonPath": "projects/bachelors_thesis_can_logger.json",
+    "section": "2024/2025",
+    "tag": "ToBeDone"
+  },
+
+  {
+    "title": "Embedded RPM Measurement for a Racing Boat Motor Using an IR Sensor",
+    "jsonPath": "projects/project_celka_motor_tachometr.json",
+    "section": "2024",
+    "tag": "Finished"
+  },
+  {
+    "title": "Temperature monitoring for a racing boat motor, motor cooling controller",
+    "jsonPath": "projects/project_celka_motor_temperature.json",
+    "section": "2024",
+    "tag": "Finished"
+  },
+
+  {
+    "title": "Barka Robotic Arm and Water cannon",
+    "jsonPath": "projects/barka_robotic_arm_water_cannon.json",
+    "section": "2023/2024",
+    "tag": "ToBeDone"
+  },
+  {
+    "title": "Barka aluminium frame",
+    "jsonPath": "projects/barka_aluminium_frame.json",
+    "section": "2023/2024",
+    "tag": "ToBeDone"
+  },
+  {
+    "title": "Celka embedded system (CAN)",
+    "jsonPath": "projects/celka_embedded_system_can.json",
+    "section": "2023/2024",
+    "tag": "ToBeDone"
+  },
+  {
+    "title": "Celka steering wheel",
+    "jsonPath": "projects/celka_steering_wheel.json",
+    "section": "2023/2024",
+    "tag": "ToBeDone"
+  },
+  {
+    "title": "Flight height indicator based on ultrasonic sensors",
+    "jsonPath": "projects/flight_height_indicator_ultrasonic_sensors.json",
+    "section": "2022/2023",
+    "tag": "ToBeDone"
+  },
+  {
+    "title": "Composite heater, and heater controller",
+    "jsonPath": "projects/composite_heater_and_controller.json",
+    "section": "2022/2023",
+    "tag": "ToBeDone"
+  },
+  {
+    "title": "Self balancing two wheeled inverted pendulum robot",
+    "jsonPath": "projects/self_balancing_two_wheeled_inverted_pendulum_robot.json",
+    "section": "2022/2023",
+    "tag": "ToBeDone"
+  },
+
+  {
+    "title": "Thermometer for water and the air temperature for outdoor Jacuzzi",
+    "jsonPath": "projects/thermometer_water_air_jacuzzi.json",
+    "section": "Earlier",
+    "tag": "ToBeDone"
+  },
+  {
+    "title": "Christmas RGB lights for a small trees",
+    "jsonPath": "projects/christmas_rgb_lights_small_trees.json",
+    "section": "Earlier",
+    "tag": "ToBeDone"
+  },
+
+  {
+    "title": "Sample project",
+    "jsonPath": "../projects/project_sample.json",
+    "section": "Sample Section",
+    "tag": ""
+  }
+]
