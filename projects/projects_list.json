@@ -42,13 +42,13 @@
     "section": "2024/2025",
     "tag": "ToBeDone"
   },
+
   {
-    "title": "Tachometer monitoring for a racing boat motor",
+    "title": "Embedded RPM Measurement for a Racing Boat Motor Using an IR Sensor",
     "jsonPath": "projects/project_celka_motor_tachometr.json",
-    "section": "2023/2024",
+    "section": "2024",
     "tag": "Finished"
   },
-
   {
     "title": "Temperature monitoring for a racing boat motor, motor cooling controller",
     "jsonPath": "projects/project_celka_motor_temperature.json",
