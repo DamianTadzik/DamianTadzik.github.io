@@ -113,8 +113,8 @@
   {
     "title": "Self balancing two wheeled inverted pendulum robot",
     "jsonPath": "projects/self_balancing_two_wheeled_inverted_pendulum_robot.json",
-    "section": "2022/2023",
-    "tag": "ToBeDone",
+    "section": "2022",
+    "tag": "AlmostDone",
     "visible": true
   },
 
