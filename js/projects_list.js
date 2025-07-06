@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const sections = {};
 
       projects.forEach(project => {
+        if (!project.visible) return; // Exit early if project is not visible
+
         const { title, jsonPath, section, tag } = project;
 
         if (!sections[section]) {
