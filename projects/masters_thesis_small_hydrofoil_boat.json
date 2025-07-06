@@ -1,0 +1,38 @@
+{
+  "title": "Masters thesis - Small hydrofoil RC boat (?)",
+
+  "date": "June 2024 - September 2025",
+  "technologies": ["Matlab", "CAD", "Control"],
+
+  "overview": [
+    "The goal of this project is to build a small-scale radio-controlled hydrofoil boat, intended as a test platform for control algorithms prior to deployment on the full-scale solar racing boat.",
+    "The project is being developed independently during the summer, and if successful, it will become the foundation of my master's thesis."
+  ],
+
+  "highlights": [
+    "Scaled down the full-sized 'Celka' boat model and CNC-milled the mold for the hull.",
+    "Collaboratively sanded and prepared the mold surface with team members.",
+    "Laminated the carbon fiber hull inside the mold with a colleague.",
+    "Adapted the propulsion system and controller from a different boat (R.O.B.U.R.).",
+    "Electronics, foil mounting, and control systems are in progress."
+  ],
+
+  "results": [
+    "The project is still in progress. Key milestones like electronics integration and on-water tests are planned for the coming weeks."
+  ],
+
+  "images": [
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat/preparing_the_mold.jpg",
+      "caption": "Figure 1: Preparing the CNC-milled mold surface for lamination (2024)"
+    },
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat/demolding.jpg",
+      "caption": "Figure 2: Demoulding the laminated carbon fiber hull (2024)"
+    },
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat/tests_of_the_prototype.gif",
+      "caption": "Figure 3: First water tests of the small-scale protoype (2024)"
+    }
+  ]
+}
