@@ -1,0 +1,52 @@
+{
+  "title": "Model-Based Control Upgrade for Composite Heater: Identification, Optimization, Deployment",
+
+  "date": "June-July 2025",
+  "technologies": [
+    "MATLAB", 
+    "Simulink", 
+    "System Identification Toolbox", 
+    "Simulink Coder", 
+    "Embedded Coder", 
+    "UART communication", 
+    "C", 
+    "PID control", 
+    "Digital Twin Modeling"
+  ],
+
+  "overview": [
+    "The goal of this project is to use the MATLAB Simulink toolset to perform system identification of a composite heater and then design and deploy a controller to an embedded system.",
+    "This initiative is conducted independently within the AGH Solar Boat Student Research Group. The motivation behind this project is to gain hands-on experience with model-based design and deployment before conducting more advanced experiments."
+  ],
+
+  "highlights": [
+    "Refactored the old embedded software I originally wrote for the composite heater, splitting it into modular files and adding UART-based data logging.",
+    "Developed a MATLAB script to receive CSV-formatted data, visualize it with plots, and support system identification.",
+    "Conducted a step response experiment, filtered the data, and fitted a transfer function model to represent the plant.",
+    "Built a Simulink model replicating the system, integrating parts of the original C code using LCT (Legacy Code Tool), effectively creating a digital twin.",
+    "Designed a PID controller in Simulink, manually tuning each component (P, I, D) to understand their individual influence on performance.",
+    "Generated C code from the Simulink model for deployment to the embedded target (done), actual deployment and testing are still in progress.",
+    "Planned final stages include real-world tests and comparison between the plant model and actual hardware response."
+  ],
+
+  "results": [
+    "The project is ongoing. Initial results show a successful system identification and a working simulation model with integrated legacy code.",
+    "Pending work includes deploying the controller to the embedded system and validating it through physical experiments.",
+    "In the future, the same methodology can be used for more complex systems or applied in closed-loop control of onboard boat electronics."
+  ],
+
+  "images": [
+    {
+      "src": "../images/composite_heater_object_identification/simulink_model.jpg",
+      "caption": "Figure 1: Simulink model combining the plant dynamics and embedded PID controller"
+    },
+    {
+      "src": "../images/composite_heater_object_identification/step_response_data_and_fit.png",
+      "caption": "Figure 2: Raw step response data (gray) and fitted first-order transfer function response (blue)"
+    },
+    {
+      "src": "../images/composite_heater_object_identification/object_response_to_the_control.png",
+      "caption": "Figure 3: Simulation of the closed-loop system—reference temperature, control signal, and resulting object response"
+    }
+  ]
+}
