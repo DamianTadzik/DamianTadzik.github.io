@@ -119,10 +119,10 @@
   },
 
   {
-    "title": "Thermometer for water and the air temperature for outdoor Jacuzzi",
+    "title": "DS18B20-Based Water and Air Thermometer for Outdoor Jacuzzi",
     "jsonPath": "projects/thermometer_water_air_jacuzzi.json",
-    "section": "Earlier",
-    "tag": "ToBeDone",
+    "section": "2021",
+    "tag": "Finished",
     "visible": true
   },
   {

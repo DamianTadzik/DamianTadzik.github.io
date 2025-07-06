@@ -1,0 +1,34 @@
+{
+  "title": "DS18B20-Based Water and Air Thermometer for Outdoor Jacuzzi",
+
+  "date": "August 2021",
+  "technologies": ["Arduino", "OneWire", "DS18B20"],
+
+  "overview": [
+    "The goal of this project was to create a simple thermometer to measure both water and air temperature for an outdoor wood-fired Jacuzzi.",
+    "I built it at home, based on an idea I discussed with my dad, who is an electronics technician and taught me electronics from a young age."
+  ],
+
+  "highlights": [
+    "Purchased two DS18B20 temperature sensors and 7-segment LED displays.",
+    "Selected a suitable microcontroller (ATtiny85) and an LED matrix driver communicating via I2C.",
+    "Designed a user interface using four LED digits - showing e.g. 'b38.3' for water temperature and 'p18.7' for air temperature.",
+    "Soldered the entire board and wrote the firmware for the ATtiny85.",
+    "Added a light sensor (photoresistor) to automatically dim the display in low ambient light.",
+    "Prepared the enclosure, cabling, and power supply. One sensor is integrated into a water pipe, the second is placed nearby to measure air temperature.",
+    "Installed the finished device on the Jacuzzi together with my dad."
+  ],
+
+  "results": [
+    "The system has been working reliably for years without the need for any maintenance - my dad is happy with the outcome.",
+    "The project is quite old now and could use a refresh. One future idea is to design a floating wireless sensor node (powered by a CR2032) that would transmit temperature readings to a separate LED display.",
+    "I'm also considering an ESP-based upgrade to log temperatures and display a web-based graph interface - but that's only idea for the future."
+  ],
+
+  "images": [
+    {
+      "src": "../images/thermometer_water_air_jacuzzi/device_mounted_on_the_jacuzzi.jpg",
+      "caption": "Figure 1: Working device mounted on the jacuzzi"
+    }
+  ]
+}
