@@ -1,0 +1,43 @@
+{
+    "title": "Barka Ball Launcher - Improved Racquet Ball Delivery System for RoboBoat 2025",
+
+  "date": "February 2025",
+  "technologies": ["FDM 3D Printing", "BLDC", "PWM", "Servo", "STM32F446", "Embedded C"],
+
+  "overview": [
+    "The goal of this project was to build a second, improved iteration of a racquet ball launcher for the autonomous vessel Barka. The launcher was required for the 'Object Delivery' task in the RoboBoat 2025 competition.",
+    "The project was developed as part of the AGH Solar Boat student research group. The first prototype, created by another team member, had fundamental design flaws and was not reliable."
+  ],
+
+  "highlights": [
+    "Redesigned the entire system based on the original idea while resolving critical mechanical and control issues.",
+    "Replaced the non-waterproof stepper motor (which lacked position feedback) with a standard waterproof RC servo, simplifying control and increasing reliability.",
+    "Redefined most of the part dimensions and re-designed all components to be printable with FDM 3D printing.",
+    "Simplified the mechanical design and standardized fasteners - reduced the variety of screw sizes to ease maintenance and assembly during competitions.",
+    "Designed and printed a low-friction plunger using IGUS filament to reduce friction and increase reliability.",
+    "Like in the original concept, reused two BLDC motors from an old drone to drive the dual flywheels responsible for launching the ball.",
+    "Developed custom firmware to generate PWM signals via timer peripherial of the custom STM32 based 'Barka-Board' to control the BLDC motors and the servo.",
+    "Developed and implemented control algorithms for safe and reliable firing, including integration with a custom RC transmitter interface and with the CAN interface (which I also designed and programmed) to allow remote and autonomous operation as well."
+  ],
+
+  "results": [
+    "The second iteration of the launcher was significantly more robust, serviceable, and competition-ready.",
+    "Key improvements included waterproofing, simpler maintenance, and increase in reliability.",
+    "The team was satisfied with the final result, and the launcher was integrated onto the Barka vessel for RoboBoat 2025."
+  ],
+
+  "images": [
+    {
+      "src": "../images/project_barka_ball_launcher/x.jpg",
+      "caption": "Figure 1: example"
+    },
+    {
+      "src": "../images/project_barka_ball_launcher/x.jpg",
+      "caption": "Figure 2: example"
+    },
+    {
+      "src": "../images/project_barka_ball_launcher/x.jpg",
+      "caption": "Figure 3: example"
+    }
+  ]
+}

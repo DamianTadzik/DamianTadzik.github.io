@@ -13,6 +13,13 @@
     "tag": "Ongoing",
     "visible": true
   },
+  {
+    "title": "Webpage with Portfolio of my projects",
+    "jsonPath": "projects/x.json",
+    "section": "Ongoing",
+    "tag": "Ongoing",
+    "visible": true
+  },
 
 
   {
@@ -29,6 +36,13 @@
     "tag": "Finished",
     "visible": true
   },
+  {
+    "title": "Barka Ball Launcher - Improved Racquet Ball Delivery System for RoboBoat 2025",
+    "jsonPath": "projects/project_barka_ball_launcher.json",
+    "section": "2025",
+    "tag": "AlmostDone",
+    "visible": true
+  },
 
 
   {
@@ -38,9 +52,10 @@
     "tag": "ToBeDone",
     "visible": true
   },
+
   {
-    "title": "Barka Ball launcher",
-    "jsonPath": "projects/barka_ball_launcher.json",
+    "title": "CAN Library for usage in the AGH Solar Boat projects",
+    "jsonPath": "projects/x.json",
     "section": "2024/2025",
     "tag": "ToBeDone",
     "visible": true
