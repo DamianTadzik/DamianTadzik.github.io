@@ -1,5 +1,5 @@
 {
-    "title": "Barka Ball Launcher - Improved Racquet Ball Delivery System for RoboBoat 2025",
+    "title": "Autonomous Boat Ball Launcher - Improved Racquet Ball Delivery System for RoboBoat 2025",
 
   "date": "February 2025",
   "technologies": ["FDM 3D Printing", "BLDC", "PWM", "Servo", "STM32F446", "Embedded C"],
@@ -23,7 +23,7 @@
   "results": [
     "The second iteration of the launcher was significantly more robust, serviceable, and competition-ready.",
     "Key improvements included waterproofing, simpler maintenance, and increase in reliability.",
-    "The team was satisfied with the final result, and the launcher was integrated onto the Barka vessel for RoboBoat 2025."
+    "The team was satisfied with the final result, and the launcher was integrated onto the Autonomous Barka vessel for RoboBoat 2025."
   ],
 
   "images": [
