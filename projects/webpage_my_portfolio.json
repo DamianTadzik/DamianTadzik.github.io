@@ -1,0 +1,44 @@
+{
+  "title": "Webpage with Portfolio of my projects and contact information",
+
+  "date": "July 2025",
+  "technologies": ["CSS", "JS", "HTML", "Github Pages", "JSON"],
+
+  "overview": [
+    "The goal of this project was to build a personal portfolio website that lists and showcases all of my technical and engineering projects in a structured and lightweight format.",
+    "The page was designed and implemented from scratch using plain HTML, CSS and JavaScript, and is hosted using GitHub Pages. Each project is described using a standalone JSON file, and the webpage dynamically loads and renders project data directly from these files.",
+    "The site is intended to serve as both a personal archive and a public showcase, making it easy to share my work with others (e.g. during recruitment)."
+  ],
+
+  "highlights": [
+    "Designed a responsive HTML layout for both the project list and individual project pages.",
+    "Implemented JavaScript logic to load metadata from `projects/projects_list.json`, dynamically render project cards, and fetch full project data from separate JSON files.",
+    "Structured each project entry as a self-contained JSON file with fields for title, date, technologies, highlights, overview, results, and images.",
+    "Developed a modular page template (`project.html`) that loads and renders any selected project based on a `file=` query parameter in the URL.",
+    "Created reusable image + caption rendering logic and markdown-like text formatting for highlights and paragraphs.",
+    "Used GitHub Pages to host the static site publicly and set up automatic deployment from the repository.",
+    "Kept the design minimal and lightweight, avoiding large frameworks and dependencies, making it fast and easy to maintain."
+  ],
+
+  "results": [
+    "The portfolio page is fully functional, fast, and easy to expand with new projects just by adding JSON files and image assets.",
+    "It makes it easier to present my engineering and hobby projects without relying on external platforms.",
+    "Potential future work includes adding filtering by tags, a search bar, or moving to my own hosting if needed.",
+    "The content is still under development — I'm continuously adding project descriptions and images as time allows."
+  ],
+
+  "images": [
+    {
+      "src": "../images/webpage_my_portfolio/placeholder_640x480px.jpg",
+      "caption": "Figure 1: example"
+    },
+    {
+      "src": "../images/webpage_my_portfolio/placeholder_800x600px.jpg",
+      "caption": "Figure 2: example"
+    },
+    {
+      "src": "../images/webpage_my_portfolio/placeholder_640x480px.jpg",
+      "caption": "Figure 3: example"
+    }
+  ]
+}

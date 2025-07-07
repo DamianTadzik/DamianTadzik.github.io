@@ -14,13 +14,12 @@
     "visible": true
   },
   {
-    "title": "Webpage with Portfolio of my projects",
-    "jsonPath": "projects/x.json",
+    "title": "Webpage with Portfolio of my projects and contact information",
+    "jsonPath": "projects/webpage_my_portfolio.json",
     "section": "Ongoing",
     "tag": "Ongoing",
     "visible": true
   },
-
 
   {
     "title": "Simple 2-DOF robotic arm dynamics and controller model in Matlab (Modelling of CPS course)",
