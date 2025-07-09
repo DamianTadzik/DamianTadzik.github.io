@@ -52,15 +52,14 @@
     "visible": true
   },
 
+
   {
-    "title": "CAN Library for usage in the AGH Solar Boat projects",
-    "jsonPath": "projects/x.json",
-    "section": "2024/2025",
-    "tag": "ToBeDone",
+    "title": "Custom CAN Driver Library for AGH Solar Boat Projects",
+    "jsonPath": "projects/project_can_library_for_SBT_STM32.json",
+    "section": "2024",
+    "tag": "AlmostDone",
     "visible": true
   },
-
-
   {
     "title": "Bachelors thesis - (CAN Logger)",
     "jsonPath": "projects/bachelors_thesis_can_logger.json",
@@ -69,15 +68,15 @@
     "visible": true
   },
   {
-    "title": "Hardware and Software Upgrade of Racing Boat Steering Wheel Interface",
-    "jsonPath": "projects/project_celka_steering_wheel.json",
+    "title": "Embedded RPM Measurement for a Racing Boat Motor Using an IR Sensor",
+    "jsonPath": "projects/project_celka_motor_tachometr.json",
     "section": "2024",
     "tag": "Finished",
     "visible": true
   },
   {
-    "title": "Embedded RPM Measurement for a Racing Boat Motor Using an IR Sensor",
-    "jsonPath": "projects/project_celka_motor_tachometr.json",
+    "title": "Hardware and Software Upgrade of Racing Boat Steering Wheel Interface",
+    "jsonPath": "projects/project_celka_steering_wheel.json",
     "section": "2024",
     "tag": "Finished",
     "visible": true
