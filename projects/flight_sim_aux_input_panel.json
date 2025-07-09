@@ -1,0 +1,36 @@
+{
+  "title": "Homemade Custom Auxiliary Input Panel for Flight Simulator",
+
+  "date": "May 2019",
+  "technologies": ["SparkFun Pro Micro", "Arduino", "Analog potentiometers", "Button matrix", "USB HID", "Basic electronics"],
+  
+  "overview": [
+    "This was one of my first embedded projects, aimed at improving flight simulator immersion by adding a custom auxiliary input device.",
+    "The goal was to control more simulator parameters (e.g., flaps, propeller pitch, mixture) than a typical joystick or keyboard allowed.",
+    "I designed a compact control panel based on a SparkFun Pro Micro board, using five analog slide potentiometers and a button matrix to provide extended input capabilities."
+  ],
+
+  "highlights": [
+    "Selected and wired five analog slide potentiometers for continuous control of simulator parameters.",
+    "Implemented a button matrix to allow additional discrete inputs without using many GPIO pins.",
+    "Wrote Arduino firmware that presented the panel as a USB HID joystick for plug-and-play compatibility with flight sims.",
+    "Hand-soldered all components on a perfboard and tested integration with flight simulator game."
+  ],
+
+  "results": [
+    "The panel successfully extended flight sim control capabilities with five additional analog axes and multiple buttons.",
+    "It provided a much more immersive experience, especially for controlling aircraft systems during simulation.",
+    "Potential future improvements include adding a proper enclosure, motorized potentiometers, and additional switches to increase the number of input channels."  
+  ],
+
+  "images": [
+    {
+      "src": "../images/flight_sim_aux_input_panel/.jpg",
+      "caption": "Figure 1: example"
+    },
+    {
+      "src": "../images/flight_sim_aux_input_panel/.jpg",
+      "caption": "Figure 2: example"
+    }
+  ]
+}

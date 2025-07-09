@@ -162,10 +162,10 @@
     "visible": true
   },
   {
-    "title": "Homemade controller for flight simulator immersion enhancement",
-    "jsonPath": "projects/x.json",
+    "title": "Homemade Custom Auxiliary Input Panel for Flight Simulator",
+    "jsonPath": "projects/flight_sim_aux_input_panel.json",
     "section": "2019",
-    "tag": "ToBeDone",
+    "tag": "AlmostDone  ",
     "visible": true
   },
 
