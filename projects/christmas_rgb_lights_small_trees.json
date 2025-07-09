@@ -22,13 +22,17 @@
   "results": [
     "The RGB lighting system works reliably and looks great on the mini Christmas trees during the winter season.",
     "While simple, the project combined hands-on soldering, analog electronics, and embedded programming.",
-    "A fun early project that strengthened my interest in microcontroller-based hardware design."
+    "A fun early project that strengthened my interest in microcontroller-based hardware design and electronics."
   ],
 
   "images": [
     {
       "src": "../images/christmas_rgb_lights_small_trees/maksio_obok_choinki.jpg",
       "caption": "Figure 1: My dog posing next to the mini Christmas trees lit by the custom RGB lighting system."
+    },
+    {
+      "src": "../images/christmas_rgb_lights_small_trees/trees_without_snow.gif",
+      "caption": "Figure 2: Custom RGB light chains in action — animation showing the illumination patterns on the mini Christmas trees."
     }
   ]
 }

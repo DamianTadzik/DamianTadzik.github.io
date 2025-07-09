@@ -158,14 +158,14 @@
     "title": "Homemade RGB Light Chains for Christmas Trees",
     "jsonPath": "projects/christmas_rgb_lights_small_trees.json",
     "section": "2019",
-    "tag": "AlmostDone",
+    "tag": "Finished",
     "visible": true
   },
   {
     "title": "Homemade Custom Auxiliary Input Panel for Flight Simulator",
     "jsonPath": "projects/flight_sim_aux_input_panel.json",
     "section": "2019",
-    "tag": "AlmostDone  ",
+    "tag": "AlmostDone",
     "visible": true
   },
 
