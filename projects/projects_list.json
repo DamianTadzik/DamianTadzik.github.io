@@ -61,7 +61,7 @@
     "visible": true
   },
   {
-    "title": "Bachelors thesis - (CAN Logger)",
+    "title": "Bachelors thesis - Custom CAN Logger with Load Cell Integration for Hydrofoil Boat Testing",
     "jsonPath": "projects/bachelors_thesis_can_logger.json",
     "section": "2024",
     "tag": "ToBeDone",

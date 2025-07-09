@@ -1,0 +1,52 @@
+{
+  "title": "Custom CAN Logger with Load Cell Integration for Hydrofoil Boat Testing",
+
+  "date": "September-November 2024",
+  "technologies": [
+    "STM32F446RE",
+    "CAN bus",
+    "SDIO",
+    "microSD",
+    "FreeRTOS",
+    "HX711",
+    "C (STM32 HAL)"
+  ],
+
+  "overview": [
+    "This project aimed to develop a reliable and reusable CAN bus data logger for the main telemetry network of the AGH Solar Boat team's hydrofoil racing boat \"Celka\".",
+    "The idea originated from the absence of a functional telemetry system that could both record and store data for later analysis — essential for testing, diagnostics, and performance optimization.",
+    "A secondary goal was to measure hydrodynamic drag by integrating a load cell (strain gauge) and an external ADC (HX711) into the system.",
+    "The project also formed the basis of my engineering thesis, where I documented and defended the design and implementation."
+  ],
+
+  "highlights": [
+    "Designed a prototype using an STM32F446RE microcontroller with microSD card storage via SDIO interface.",
+    "Configured STM32 peripherals including CAN, SDIO, and GPIO with interrupt handling for real-time performance.",
+    "Implemented a FreeRTOS-based system with three main tasks: CAN message reception, SD card data logging, and load cell data acquisition.",
+    "Wrote a custom FreeRTOS task using GPIO interrupts and the HX711 ADC protocol to reliably sample load cell measurements.",
+    "Created a modular and extensible firmware structure to enable reuse in future projects requiring CAN logging or external analog sensors."
+  ],
+
+  "results": [
+    "Successfully built and tested a functional prototype of the CAN logger.",
+    "The device enables long-duration logging of CAN traffic to the SD card, supporting offline analysis and debugging.",
+    "HX711 integration provides analog load data for hydrodynamic drag measurements, expanding the logger's use cases.",
+    "The project filled a critical gap in the team's data collection workflow and is ready for deployment in future boat tests.",
+    "Additionally, the engineering thesis based on this project was successfully defended."
+  ],
+
+  "images": [
+    {
+      "src": "../images/bachelors_thesis_can_logger/.jpg",
+      "caption": "Figure 1: example"
+    },
+    {
+      "src": "../images/bachelors_thesis_can_logger/.jpg",
+      "caption": "Figure 2: example"
+    },
+    {
+      "src": "../images/bachelors_thesis_can_logger/.jpg",
+      "caption": "Figure 3: example"
+    }
+  ]
+}
