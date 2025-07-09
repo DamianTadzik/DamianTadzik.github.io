@@ -1,0 +1,34 @@
+{
+  "title": "Homemade RGB Light Chains for Christmas Trees",
+
+  "date": "October 2019",
+  "technologies": ["Arduino Nano", "Discrete RGB LED chains", "NPN transistors", "PWM control", "Low-voltage electronics"],
+
+  "overview": [
+    "This was a simple family electronics project to add colorful lighting to small Christmas trees at home. The idea came from my dad, who bought a set of red, green, and blue decorative light chains based on small pearl-shaped LEDs.",
+    "We brainstormed how to combine these into proper RGB chains using transparent heat-shrink tubing, forming individual RGB light points.",
+    "I handled the electronics and programming: creating a driver circuit based on transistors and writing the firmware for an Arduino Nano that would randomly blink each color channel in creative patterns."
+  ],
+
+  "highlights": [
+    "Hand-assembled RGB light chains by combining separate red, green, and blue LED strands.",
+    "Used transparent heat-shrink tubing to group the LEDs and create RGB 'pixels'.",
+    "Designed a basic transistor-based driver circuit to switch each color channel.",
+    "Wrote firmware for an Arduino Nano to control lighting sequences using random effects and timing.",
+    "Enclosed the control electronics and power supply in a sealed casing for protection.",
+    "Delivered a fully working set of lights that brightened up our Christmas decorations."
+  ],
+
+  "results": [
+    "The RGB lighting system works reliably and looks great on the mini Christmas trees during the winter season.",
+    "While simple, the project combined hands-on soldering, analog electronics, and embedded programming.",
+    "A fun early project that strengthened my interest in microcontroller-based hardware design."
+  ],
+
+  "images": [
+    {
+      "src": "../images/christmas_rgb_lights_small_trees/maksio_obok_choinki.jpg",
+      "caption": "Figure 1: My dog posing next to the mini Christmas trees lit by the custom RGB lighting system."
+    }
+  ]
+}

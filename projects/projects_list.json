@@ -152,10 +152,19 @@
     "tag": "Finished",
     "visible": true
   },
+
+
   {
-    "title": "Christmas RGB lights for a small trees",
+    "title": "Homemade RGB Light Chains for Christmas Trees",
     "jsonPath": "projects/christmas_rgb_lights_small_trees.json",
-    "section": "2020",
+    "section": "2019",
+    "tag": "AlmostDone",
+    "visible": true
+  },
+  {
+    "title": "Homemade controller for flight simulator immersion enhancement",
+    "jsonPath": "projects/x.json",
+    "section": "2019",
     "tag": "ToBeDone",
     "visible": true
   },
