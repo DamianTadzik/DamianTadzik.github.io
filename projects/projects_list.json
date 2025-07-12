@@ -42,13 +42,18 @@
     "tag": "AlmostDone",
     "visible": true
   },
-
-
   {
-    "title": "Barka embedded system software (BMS and Control)",
+    "title": "CAN interface board for Jettson Orin",
+    "jsonPath": "projects/CAN_interface_board_for_jettson.json",
+    "section":"2025",
+    "tag": "AlmostDone",
+    "visible": true
+  },
+  {
+    "title": "Barka Embedded System Software (BMS and Control)",
     "jsonPath": "projects/barka_embedded_system_software.json",
-    "section": "2024/2025",
-    "tag": "ToBeDone",
+    "section": "2025",
+    "tag": "AlmostDone",
     "visible": true
   },
 

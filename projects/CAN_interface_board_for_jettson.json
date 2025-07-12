@@ -1,0 +1,46 @@
+{
+  "title": "CAN interface board for Jettson Orin",
+
+  "date": "sample date July 2025",
+  "technologies": [
+    "PCB prototyping",
+    "SMD & THT soldering",
+    "EasyEDA",
+    "CAN bus",
+    "TVS protection",
+    "Jetson Orin",
+    "Xsens IMU"
+  ],
+
+  "overview": [
+    "A small PCB designed as a CAN interface for Jetson Orin.The board allows soldering either a through-hole or surface-mount CAN transceiver, with only one used at a time based on availability.",
+    "The board features ESD protection (TVS diode), filtering capacitors, and standardized connectors used within the AGH Solar Boat team: 4-pin CAN connectors, a 5-pin Jetson interface connector, and a dedicated port for connecting an Xsens IMU via the factory cable.",
+    "The design is an improvement over a previous version, adding more connectors and better compatibility."
+  ],
+
+  "highlights": [
+    "Designed a schematic and PCB layout in EasyEDA with both SMD and THT footprints for CAN transceivers (compatibility with available lab stock).",
+    "Added filtering capacitors, a TVS diode protecting CANH/CANL lines, and a clean connector layout for seamless system integration.",
+    "Included a dedicated port for the Xsens IMU, compatible with its factory cable — eliminating the need for custom adapters.",
+    "Ensured connector compatibility with AGH Solar Boat CAN standard (4-pin connectors).",
+    "Prepared and ordered PCBs, with a concise note about the board's purpose printed on the solder mask.",
+    "Manually soldered and tested multiple units (SMD + THT) to ensure field-ready redundancy in case of failure or misplacement."
+  ],
+
+  "results": [
+    "The board improved system reliability and simplified interfacing with the IMU and Jetson Orin.",
+    "The modular form factor and dual transceiver compatibility provided flexibility for future projects.",
+    "Future revisions may further miniaturize the board or include additional diagnostic LEDs."
+  ],
+
+  "images": [
+    {
+      "src": "../images/CAN_interface_board_for_jettson/placeholder_640x480px.jpg",
+      "caption": "Figure 1: CAN interface board installed on the AGH Solar Boat."
+    },
+    {
+      "src": "../images/CAN_interface_board_for_jettson/placeholder_800x600px.jpg",
+      "caption": "Figure 2: Rear view of the PCB showing the silkscreen note describing the board's purpose."
+    }
+  ]
+}

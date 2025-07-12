@@ -1,0 +1,55 @@
+{
+  "title": "Barka Embedded System Software (BMS and Control)",
+
+  "date": "January-February 2025",
+  "technologies": [
+    "STM32F3", 
+    "FreeRTOS", 
+    "CAN bus", 
+    "BQ series battery monitors", 
+    "I2C", 
+    "RF communication", 
+    "Embedded C"
+  ],
+
+  "overview": [
+    "This project involved developing the embedded software for 'Barka', an autonomous robotic boat designed for the Roboboat 2025 competition.",
+    "The system comprises a central control board ('Barka Board') and three distributed BMS (Battery Management System) boards, all interconnected via a CAN bus.",
+    "The software was designed to be robust, modular, and easy to maintain for future AGH Solar Boat developers."
+  ],
+
+  "highlights": [
+    "Reverse engineered and refactored legacy firmware for BMS boards based on STM32F3 MCUs; rewrote the entire codebase from scratch.",
+    "Designed a modular FreeRTOS architecture with task grouping (common, master, slave) and dynamic task initialization based on jumper configuration.",
+    "Researched and documented BQ series BMS chips, rewrote I2C drivers and configured key registers with rationale for each setting.",
+    "Developed a CAN communication protocol with non-conflicting signal IDs and implemented control signal routing between master/slave BMS units.",
+    "Implemented a robust fallback protocol and safe RF-based control system: Barka Board receives commands from a handheld controller and handles emergency stops.",
+    "Enabled dual-mode propulsion: automatic mode controlled via onboard computer, and manual mode via pilot RF input (with signal override logic).",
+    "Implemented control logic for boat subsystems including water pumps, lights, gimbal, robotic arm, FPV camera, and ventilation.",
+    "Implemented telemetry forwarding from BMS units to the pilot controller: parsed battery data sent over CAN to the Barka board, then transmitted via UART through the RF transceiver using a reverse-engineered protocol."
+  ],
+
+  "results": [
+    "Successfully deployed and tested the embedded system on the robotic boat.",
+    "The system operated reliably and met safety and telemetry requirements for the Roboboat 2025 competition."
+  ],
+
+  "images": [
+    {
+      "src": "../images/barka_embedded_system_software/placeholder_640x480px.jpg",
+      "caption": "Figure 1: pilot odbierający telemetrię ładne zdjęcie"
+    },
+    {
+      "src": "../images/barka_embedded_system_software/placeholder_800x600px.jpg",
+      "caption": "Figure 2: Wnętrze skrzyni z główną płytką Barka Board"
+    },
+    {
+      "src": "../images/barka_embedded_system_software/placeholder_640x480px.jpg",
+      "caption": "Figure 3: Fragment kodu z modularnym FreeRTOS setupem"
+    },
+    {
+      "src": "../images/barka_embedded_system_software/placeholder_640x480px.jpg",
+      "caption": "Figure 4: Schemat magistrali CAN i podziału ról między płytkami"
+    }
+  ]
+}
