@@ -29,16 +29,8 @@
 
   "images": [
     {
-      "src": "../images/webpage_my_portfolio/placeholder_640x480px.jpg",
-      "caption": "Figure 1: example"
-    },
-    {
-      "src": "../images/webpage_my_portfolio/placeholder_800x600px.jpg",
-      "caption": "Figure 2: example"
-    },
-    {
-      "src": "../images/webpage_my_portfolio/placeholder_640x480px.jpg",
-      "caption": "Figure 3: example"
+      "src": "../images/webpage_my_portfolio/project_opened_in_the_code_project_structure_visible.jpg",
+      "caption": "Figure 1: Project structure opened in Visual Studio Code"
     }
   ]
 }

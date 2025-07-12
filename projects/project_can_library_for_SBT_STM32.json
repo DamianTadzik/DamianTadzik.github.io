@@ -7,14 +7,15 @@
   "overview": [
     "The goal of this project was to create a custom CAN driver library tailored to the needs of the AGH Solar Boat student research group.",
     "The existing driver used in our embedded systems was incomplete, poorly documented, and often caused confusion among new team members. It also lacked support for certain peripherals — for example, CAN2 on the STM32F446RE, which I used in my engineering thesis.",
-    "I decided to develop a well-structured, documented CAN driver built on top of the STM32 HAL. The library is designed to support the STM32F373 and STM32F446 microcontrollers we commonly use and integrates cleanly with FreeRTOS."
+    "I decided to develop a well-structured, documented CAN driver built on top of the STM32 HAL and FreeRTOS. The library is designed to support the STM32F373 and STM32F446 microcontrollers we commonly use and integrates cleanly with FreeRTOS."
   ],
 
   "highlights": [
     "Read and analyzed reference manuals for STM32F3 and STM32F4 CAN peripherals.",
-    "Reviewed the internal structure and limitations of STM32 HAL's CAN implementation.",
+    "Reviewed the internal structure and limitations of STM32 HAL's CAN implementation, including the limited TX and RX queues.",
     "Designed and implemented a modular driver with a clean file structure and consistent API surface.",
     "Integrated FreeRTOS support, including interrupt-based message handling and thread-safe queues.",
+    "Designed a robust transmission algorithm that guarantees safe delivery of all messages, even when multiple are queued simultaneously and the hardware TX queue is full—by falling back to a software-managed RTOS queue.",
     "Made the driver compatible with both bxCAN and all CAN peripherals used in our STM32-based designs.",
     "Provided extensive inline documentation and usage examples to make the library beginner-friendly for new embedded developers in the team."
   ],
@@ -22,19 +23,22 @@
   "results": [
     "The library greatly improved the usability and reliability of CAN communication in AGH Solar Boat embedded projects.",
     "New team members can now integrate CAN into their systems without needing deep knowledge of the HAL layer.",
-    "The driver supports a wide range of STM32 CAN peripherals used in different team hardware configurations.",
     "This project helped me gain a much deeper understanding of both the CAN protocol and STM32 HAL internals, especially the low-level register structures and interrupt mechanisms.",
-    "Possible future improvements include extending support to CAN-FD or additional STM32 families, depending on the team’s future hardware choices."
+    "Possible future improvements include extending support to CAN-FD or additional STM32 families, depending on the team's future hardware choices."
   ],
 
   "images": [
     {
-      "src": "../images/project_can_library_for_SBT_STM32/.jpg",
-      "caption": "Figure 1: Diagram of the can message queues"
+      "src": "../images/project_can_library_for_SBT_STM32/can_not_diagrams.jpg",
+      "caption": "Figure 1: Diagram showing the structure and flow of CAN message queues used in the library."
     },
     {
-      "src": "../images/project_can_library_for_SBT_STM32/.jpg",
-      "caption": "Figure 2: api described"
+      "src": "../images/project_can_library_for_SBT_STM32/api_described_in_the_header.jpg",
+      "caption": "Figure 2: CAN library API definitions and documentation inside the main header file."
+    },
+    {
+      "src": "../images/project_can_library_for_SBT_STM32/submodules_readme_part_with_description.jpg",
+      "caption": "Figure 3: Excerpt from the project's README describing the CAN library's modular subcomponents."
     }
   ]
 }

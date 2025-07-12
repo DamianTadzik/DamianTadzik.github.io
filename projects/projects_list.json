@@ -57,7 +57,7 @@
     "title": "Custom CAN Driver Library for AGH Solar Boat Projects",
     "jsonPath": "projects/project_can_library_for_SBT_STM32.json",
     "section": "2024",
-    "tag": "AlmostDone",
+    "tag": "Finished",
     "visible": true
   },
   {

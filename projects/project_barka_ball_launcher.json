@@ -28,16 +28,16 @@
 
   "images": [
     {
-      "src": "../images/project_barka_ball_launcher/x.jpg",
-      "caption": "Figure 1: example"
+      "src": "../images/project_barka_ball_launcher/data_structures_and_functions_for_wrapping_the_HAL_library.jpg",
+      "caption": "Figure 1: Custom C data structures and helper functions wrapping the STM32 HAL library for modularity and clarity."
     },
     {
-      "src": "../images/project_barka_ball_launcher/x.jpg",
-      "caption": "Figure 2: example"
+      "src": "../images/project_barka_ball_launcher/second_iteration_made_by_me.png",
+      "caption": "Figure 2: The second iteration of the ball launcher mechanism, redesigned and built by me for improved reliability."
     },
     {
-      "src": "../images/project_barka_ball_launcher/x.jpg",
-      "caption": "Figure 3: example"
+      "src": "../images/project_barka_ball_launcher/rack_and_pinion_for_pushing_the_balls_and_servo_visible.png",
+      "caption": "Figure 3: Close-up of the rack-and-pinion ball feeding mechanism with a visible servo actuator for controlled launching."
     }
   ]
 }
