@@ -176,10 +176,10 @@
 
 
   {
-    "title": "Sample project",
-    "jsonPath": "../projects/project_sample.json",
-    "section": "Sample Section",
-    "tag": "",
-    "visible": false
+    "title": "Sample project",  // This is going away
+    "jsonPath": "../projects/project_sample.json", // stays
+    "section": "Sample Section", // stays
+    "tag": "", // ?
+    "visible": true // stays
   }
 ]

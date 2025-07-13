@@ -2,6 +2,7 @@
   "title": "Sample project title",
 
   "date": "sample date July 2025",
+  "tags": [],
   "technologies": ["CSS", "JS", "HTML", "Github Pages", "JSON"],
 
   "overview": [
