@@ -22,6 +22,11 @@ This is the source code for my personal portfolio website hosted via GitHub Page
 ## Deployment
 This site is automatically published via GitHub Pages.
 
+The page visits are counted via:
+- [![Hits](https://hits.sh/damiantadzik.github.io.svg?style=for-the-badge&label=Page%20visits&color=555555&labelColor=6496ff)](https://hits.sh/damiantadzik.github.io/)
+- [counter.dev](https://counter.dev/setup.html)
+
+
 ## TODO List
 - [x] Think of projects to include
 - [x] Ensure that the page is secure!!!
