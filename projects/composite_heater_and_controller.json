@@ -40,8 +40,8 @@
       "caption": "Figure 1: Assembled prototype of the controller PCB backside; solid-state relays (SSRs) visible in the background"
     },
     {
-      "src": "../images/composite_heater_and_controller/TODO.jpg",
-      "caption": "Figure 2: User interface with display and control buttons (photo pending replacement)"
+      "src": "../images/composite_heater_and_controller/control_panel.jpg",
+      "caption": "Figure 2: User interface with display and control buttons"
     }
   ]
 }
