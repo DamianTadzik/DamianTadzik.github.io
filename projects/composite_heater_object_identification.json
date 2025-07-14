@@ -26,7 +26,8 @@
     "Built a Simulink model replicating the system, integrating parts of the original C code using LCT (Legacy Code Tool), effectively creating a digital twin.",
     "Designed a PID controller in Simulink, manually tuning each component (P, I, D) to understand their individual influence on performance.",
     "Generated C code from the Simulink model for deployment to the embedded target (done), actual deployment and testing are still in progress.",
-    "Planned final stages include real-world tests and comparison between the plant model and actual hardware response."
+    "Planned final stages include real-world tests and comparison between the plant model and actual hardware response.",
+    "Main challenge: Integrating and optimizing Simulink-generated code to fit within the limited memory and computational resources of a small AVR microcontroller."
   ],
 
   "results": [
