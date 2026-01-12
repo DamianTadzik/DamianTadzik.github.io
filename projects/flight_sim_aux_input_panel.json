@@ -25,12 +25,8 @@
 
   "images": [
     {
-      "src": "../images/flight_sim_aux_input_panel/.jpg",
-      "caption": "Figure 1: example"
-    },
-    {
-      "src": "../images/flight_sim_aux_input_panel/.jpg",
-      "caption": "Figure 2: example"
+      "src": "../images/flight_sim_aux_input_panel/INPUT_PANEL.jpg",
+      "caption": "Figure 1: Input panel front with potentiometers and buttons."
     }
   ]
 }
