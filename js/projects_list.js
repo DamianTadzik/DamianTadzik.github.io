@@ -2,6 +2,11 @@ document.addEventListener('DOMContentLoaded', () => {
   fetch('projects/projects_list.json')
     .then(response => response.json())
     .then(projects => {
+      const tagMap = {
+        ToBeDone: 'Finished · Webpage pending',
+        AlmostDone: 'Finished · Webpage pending',
+        Finished: 'Finished'
+      };
       const main = document.querySelector('main');
       const sections = {};
 
@@ -28,7 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const span = document.createElement('span');
         span.classList.add('tag', `tag-${tag.toLowerCase()}`);
-        span.textContent = `${tag} Project`;
+        span.textContent = `${tagMap[tag] ?? tag}`
+        // span.textContent = `${tag} Project`;
 
         li.appendChild(a);
         li.appendChild(span);
