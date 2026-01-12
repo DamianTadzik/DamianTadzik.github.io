@@ -1,5 +1,5 @@
 {
-  "title": "Model-Based Control Upgrade for Composite Heater: Identification, Optimization, Deployment",
+  "title": "Model-Based Control Design for a Composite Heater Using MATLAB/Simulink",
 
   "date": "June-July 2025",
   "technologies": [
@@ -15,8 +15,8 @@
   ],
 
   "overview": [
-    "The goal of this project is to use the MATLAB Simulink toolset to perform system identification of a composite heater and then design and deploy a controller to an embedded system.",
-    "This initiative is conducted independently within the AGH Solar Boat Student Research Group. The motivation behind this project is to gain hands-on experience with model-based design and deployment before conducting more advanced experiments."
+    "The goal of this project was to use the MATLAB/Simulink toolchain to perform system identification of a composite heater and design a controller using a model-based approach.",
+    "The project was conducted independently within the AGH Solar Boat Student Research Group as a learning-focused exercise in model-based design and embedded deployment workflows."
   ],
 
   "highlights": [
@@ -25,15 +25,15 @@
     "Conducted a step response experiment, filtered the data, and fitted a transfer function model to represent the plant.",
     "Built a Simulink model replicating the system, integrating parts of the original C code using LCT (Legacy Code Tool), effectively creating a digital twin.",
     "Designed a PID controller in Simulink, manually tuning each component (P, I, D) to understand their individual influence on performance.",
-    "Generated C code from the Simulink model for deployment to the embedded target (done), actual deployment and testing are still in progress.",
-    "Planned final stages include real-world tests and comparison between the plant model and actual hardware response.",
-    "Main challenge: Integrating and optimizing Simulink-generated code to fit within the limited memory and computational resources of a small AVR microcontroller."
+     "Generated embedded C code from the Simulink model and verified build correctness for the target platform.",
+    "Final stage includes real-world tests and comparison between the plant model and actual hardware response.",
+    "Key technical challenge: fitting Simulink-generated code and legacy logic within the memory and performance limits of a small AVR microcontroller."
   ],
 
   "results": [
-    "The project is ongoing. Initial results show a successful system identification and a working simulation model with integrated legacy code.",
-    "Pending work includes deploying the controller to the embedded system and validating it through physical experiments.",
-    "In the future, the same methodology can be used for more complex systems or applied in closed-loop control of onboard boat electronics."
+    "A validated plant model and simulation environment were created, including a digital twin with integrated legacy C code.",
+    "The project successfully demonstrated a complete model-based workflow: data acquisition, system identification, controller design, and code generation.",
+    "The outcome serves as a solid foundation for future closed-loop control experiments on more complex embedded systems."  
   ],
 
   "images": [

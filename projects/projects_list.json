@@ -7,10 +7,10 @@
     "visible": true
   },
   {
-    "title": "Model-Based Control Upgrade for Composite Heater: Identification, Optimization, Deployment",
+    "title": "Model-Based Control Design for a Composite Heater Using MATLAB/Simulink",
     "jsonPath": "projects/composite_heater_object_identification.json",
-    "section": "Ongoing",
-    "tag": "Ongoing",
+    "section": "2025",
+    "tag": "Finished",
     "visible": true
   },
   {
