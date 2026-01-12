@@ -1,11 +1,26 @@
 [
   {
-    "title": "Masters thesis - Small hydrofoil RC boat (?)",
-    "jsonPath": "projects/masters_thesis_small_hydrofoil_boat.json",
-    "section": "Ongoing",
+    "title": "Master's Thesis - Small-Scale Hydrofoil Boat: Model and Control System Design",
+    "jsonPath": "projects/.json",
+    "section": "2026",
+    "tag": "Ongoing",
+    "visible": false
+  },
+  {
+    "title": "Master's Thesis - Small-Scale Hydrofoil Boat: Embedded System Design",
+    "jsonPath": "projects/masters_thesis_small_hydrofoil_boat_embedded_system.json",
+    "section": "2025",
     "tag": "Ongoing",
     "visible": true
   },
+  {
+    "title": "Master's Thesis - Small-Scale Hydrofoil Boat: Hardware Design",
+    "jsonPath": "projects/masters_thesis_small_hydrofoil_boat_hardware.json",
+    "section": "2025",
+    "tag": "AlmostDone",
+    "visible": true
+  },
+
   {
     "title": "Model-Based Control Design for a Composite Heater Using MATLAB/Simulink",
     "jsonPath": "projects/composite_heater_object_identification.json",
@@ -16,11 +31,10 @@
   {
     "title": "Webpage with Portfolio of my projects and contact information",
     "jsonPath": "projects/webpage_my_portfolio.json",
-    "section": "Ongoing",
+    "section": "2025",
     "tag": "Ongoing",
     "visible": true
   },
-
   {
     "title": "Simple 2-DOF robotic arm dynamics and controller model in Matlab (Modelling of CPS course)",
     "jsonPath": "projects/modelling_of_CPS_robotic_arm_dynamics.json",
@@ -69,7 +83,7 @@
     "title": "Bachelors thesis - Custom CAN Logger with Load Cell Integration for Hydrofoil Boat Testing",
     "jsonPath": "projects/bachelors_thesis_can_logger.json",
     "section": "2024",
-    "tag": "ToBeDone",
+    "tag": "Finished",
     "visible": true
   },
   {
@@ -170,7 +184,7 @@
     "title": "Homemade Custom Auxiliary Input Panel for Flight Simulator",
     "jsonPath": "projects/flight_sim_aux_input_panel.json",
     "section": "2019",
-    "tag": "AlmostDone",
+    "tag": "Finished",
     "visible": true
   },
 

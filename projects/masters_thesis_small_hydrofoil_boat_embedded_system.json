@@ -1,0 +1,50 @@
+{
+  "title": "Master's Thesis - Small-Scale Hydrofoil Boat: Hardware Design",
+
+  "date": "July 2025 - January 2026",
+  "technologies": [
+    "STM32 (bare-metal / HAL)",
+    "C",
+    "Custom PCB design",
+    "CAN bus",
+    "I2C / SPI / UART",
+    "IMU",
+    "Current/voltage sensing",
+    "RC receiver (PWM/PPM/SBUS)",
+    "ESC + servo control (PWM)"
+  ],
+
+  "overview": [
+    "This project covers the embedded electronics and firmware for the small-scale hydrofoil RC boat used in my master's thesis.",
+    "The goal is to build a robust control and data-acquisition platform: read sensors, run low-level control loops, and log/stream telemetry for experiments.",
+    "The system is designed to be modular and reusable for future prototypes and testing campaigns."
+  ],
+
+  "highlights": [
+    "Designed a custom STM32-based main control PCB (achter board and fore board) for sensor acquisition, actuator control, and power distribution.",
+    "Integrated interfaces for key sensors (IMU, TOF) and boat-specific signals (battery monitoring, current sensing).",
+    "Implemented deterministic control of actuators (ESC + servos) with safe startup and failsafe behavior.",
+    "Added telemetry output and logging to support later modelling and controller tuning.",
+    "Prepared the wiring harness and mounted the electronics inside the hull for on-water testing."
+  ],
+
+  "results": [
+    "First revision of the custom control PCB was assembled and brought up successfully (power, programming/debug, IO validation).",
+    "Sensors and actuators were connected and verified on the bench and on water."
+  ],
+
+  "images": [
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat_embedded_system/custom_board_rear.jpg",
+      "caption": "Figure 1: Custom STM32-based control PCB for hydrofoil boat sensing, actuation, and telemetry."
+    },
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat_embedded_system/rear_compartment.jpg",
+      "caption": "Figure 2: Control board mounted inside the hull and connected to sensors and actuators."
+    },
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat_embedded_system/",
+      "caption": "Figure 3:"
+    }
+  ]
+}

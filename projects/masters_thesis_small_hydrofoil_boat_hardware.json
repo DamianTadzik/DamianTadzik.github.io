@@ -1,12 +1,19 @@
 {
-  "title": "Masters thesis - Small hydrofoil RC boat (?)",
+  "title": "Master's Thesis - Small-Scale Hydrofoil Boat: Hardware Design",
 
   "date": "June 2024 - September 2025",
-  "technologies": ["Matlab", "CAD", "Control"],
+  "technologies": [
+    "CAD",
+    "Composite manufacturing",
+    "CNC machining",
+    "Carbon fiber lamination",
+    "3D printing"
+  ],
 
   "overview": [
-    "The goal of this project is to build a small-scale radio-controlled hydrofoil boat, intended as a test platform for control algorithms prior to deployment on the full-scale solar racing boat.",
-    "The project is being developed independently during the summer, and if successful, it will become the foundation of my master's thesis."
+    "This project focuses on the hardware design and construction of a small-scale radio-controlled hydrofoil boat.",
+    "The platform is intended for experimental validation of sensing and control algorithms before deployment on a full-scale solar-powered racing boat.",
+    "This work constitutes the hardware-design part of my master's thesis."
   ],
 
   "highlights": [
@@ -23,15 +30,15 @@
 
   "images": [
     {
-      "src": "../images/masters_thesis_small_hydrofoil_boat/preparing_the_mold.jpg",
+      "src": "../images/masters_thesis_small_hydrofoil_boat_hardware/preparing_the_mold.jpg",
       "caption": "Figure 1: Preparing the CNC-milled mold surface for lamination (2024)"
     },
     {
-      "src": "../images/masters_thesis_small_hydrofoil_boat/demolding.jpg",
+      "src": "../images/masters_thesis_small_hydrofoil_boat_hardware/demolding.jpg",
       "caption": "Figure 2: Demoulding the laminated carbon fiber hull (2024)"
     },
     {
-      "src": "../images/masters_thesis_small_hydrofoil_boat/tests_of_the_prototype.gif",
+      "src": "../images/masters_thesis_small_hydrofoil_boat_hardware/tests_of_the_prototype.gif",
       "caption": "Figure 3: First water tests of the small-scale protoype (2024)"
     }
   ]
