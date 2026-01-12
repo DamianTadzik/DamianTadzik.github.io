@@ -14,7 +14,7 @@
 
   "overview": [
     "A small PCB designed as a CAN interface for Jetson Orin.The board allows soldering either a through-hole or surface-mount CAN transceiver, with only one used at a time based on availability.",
-    "The board features ESD protection (TVS diode), filtering capacitors, and standardized connectors used within the AGH Solar Boat team: 4-pin CAN connectors, a 5-pin Jetson interface connector, and a dedicated port for connecting an Xsens IMU via the factory cable.",
+    "The board features ESD protection (TVS diode), decoupling capacitors, and standardized connectors used within the AGH Solar Boat team: 4-pin CAN connectors, a 5-pin Jetson interface connector, and a dedicated port for connecting an Xsens IMU via the factory cable.",
     "The design is an improvement over a previous version, adding more connectors and better compatibility."
   ],
 
@@ -39,8 +39,12 @@
       "caption": "Figure 1: CAN interface board installed on the AGH Solar Boat."
     },
     {
-      "src": "../images/CAN_interface_board_for_jettson/placeholder_800x600px.jpg",
-      "caption": "Figure 2: Rear view of the PCB showing the silkscreen note describing the board's purpose."
+      "src": "../images/CAN_interface_board_for_jettson/board_front.jpg",
+      "caption": "Figure 2: Front wiev showing the connectors and the tranciever itself."
+    },
+    {
+      "src": "../images/CAN_interface_board_for_jettson/board_back.jpg",
+      "caption": "Figure 3: Rear wiev showing the silkscreen note describing the board's purpose."
     }
   ]
 }

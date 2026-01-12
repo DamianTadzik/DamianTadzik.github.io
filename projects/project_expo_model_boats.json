@@ -62,6 +62,10 @@
     {
       "src": "../images/project_expo_model_boats/EXPLODED.png",
       "caption": "Figure 7: Exploded CAD view of the educational boat model assembly"
+    },
+    {
+      "src": "../images/project_expo_model_boats/PCB_brd.png",
+      "caption": "Figure 8: PCB layout designed in EasyEDA for the boat's control electronics"
     }
   ]
 }
