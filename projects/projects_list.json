@@ -60,7 +60,7 @@
     "title": "CAN interface board for Jettson Orin",
     "jsonPath": "projects/CAN_interface_board_for_jettson.json",
     "section":"2025",
-    "tag": "AlmostDone",
+    "tag": "Finished",
     "visible": true
   },
   {

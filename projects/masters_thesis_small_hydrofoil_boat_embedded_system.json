@@ -10,8 +10,9 @@
     "I2C / SPI / UART",
     "IMU",
     "Current/voltage sensing",
-    "RC receiver (PWM/PPM/SBUS)",
-    "ESC + servo control (PWM)"
+    "RC receiver (ELRS/CRSF)",
+    "ESC Odrive",
+    "Servo control (Timer PWM, ADC position feedback)"
   ],
 
   "overview": [
