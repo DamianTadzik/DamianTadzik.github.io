@@ -36,20 +36,24 @@
 
   "images": [
     {
-      "src": "../images/barka_embedded_system_software/placeholder_640x480px.jpg",
-      "caption": "Figure 1: pilot odbierający telemetrię ładne zdjęcie"
+      "src": "../images/barka_embedded_system_software/electrical_box_barka.jpg",
+      "caption": "Figure 1: Electrical box of the Barka autonomous boat, showing the Barka Board (bottom left) and BMS (upper left) with battery pack (left)."
     },
     {
       "src": "../images/barka_embedded_system_software/placeholder_800x600px.jpg",
-      "caption": "Figure 2: Wnętrze skrzyni z główną płytką Barka Board"
+      "caption": "Figure 2: Radio transmitter with custom telemetry display showing battery status received from the Barka boat over CRSF link."
     },
     {
       "src": "../images/barka_embedded_system_software/placeholder_640x480px.jpg",
-      "caption": "Figure 3: Fragment kodu z modularnym FreeRTOS setupem"
+      "caption": "Figure 3: CAN network schematic, showing the Barka Board and three BMS units connected via CAN bus."
     },
     {
       "src": "../images/barka_embedded_system_software/placeholder_640x480px.jpg",
-      "caption": "Figure 4: Schemat magistrali CAN i podziału ról między płytkami"
+      "caption": "Figure 4: Code snippet showing the FreeRTOS task initialization based on board role (master/slave) determined by jumper settings at power-up."
+    },
+    {
+      "src": "../images/barka_embedded_system_software/placeholder_640x480px.jpg",
+      "caption": "Figure 5: Code snippet showing the ..."
     }
   ]
 }

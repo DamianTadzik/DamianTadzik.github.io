@@ -38,6 +38,10 @@
     {
       "src": "../images/project_barka_ball_launcher/rack_and_pinion_for_pushing_the_balls_and_servo_visible.png",
       "caption": "Figure 3: Close-up of the rack-and-pinion ball feeding mechanism with a visible servo actuator for controlled launching."
+    },
+    {
+      "src": "../images/project_barka_ball_launcher/barka_boat_at_lake_tests_before_the_RoboBoat2025_competition.jpg",
+      "caption": "Figure 4: The Autonomous Barka boat during lake tests before the RoboBoat 2025 competition, equipped with the improved ball launcher."
     }
   ]
 }
