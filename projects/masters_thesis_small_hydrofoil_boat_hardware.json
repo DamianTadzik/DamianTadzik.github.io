@@ -14,6 +14,7 @@
     "This project focuses on the hardware design and construction of a small-scale radio-controlled hydrofoil boat.",
     "The platform is intended for experimental validation of sensing and control algorithms before deployment on a full-scale solar-powered racing boat.",
     "This work constitutes the hardware-design part of my master's thesis."
+
   ],
 
   "highlights": [
@@ -21,11 +22,19 @@
     "Collaboratively sanded and prepared the mold surface with team members.",
     "Laminated the carbon fiber hull inside the mold with a colleague.",
     "Adapted the propulsion system and controller from a different boat (R.O.B.U.R.).",
-    "Electronics, foil mounting, and control systems are in progress."
+    "Designed and 3D printed custom parts for mounting the foils and propulsion system.",
+    "Struts are reinforcemed with carbon fiber rods for added strength and reduced weight.",
+    "Conducted initial water tests to validate the prototype's buoyancy, stability, and basic performance.",
+    "CNC machined a composite deck that fits precisely onto the hull for watertight sealing.",
+    "Utilized custom jigs for accurate alignment and gluing of front and rear struts to ensure structural integrity.",
+    "Assembled electronic hardware in dedicated front and rear compartments, preparing for sensor integration."
   ],
 
   "results": [
-    "The project is still in progress. Key milestones like electronics integration and on-water tests are planned for the coming weeks."
+    "Successfully constructed a small-scale hydrofoil boat prototype that demonstrates the feasibility of the design for experimental validation.",
+    "Achieved precise assembly of all components, including custom 3D printed mounts and CNC machined parts, ensuring structural integrity.",
+    "Validated the prototype through water tests, confirming buoyancy and stability for future sensor and control system integration.",
+    "Prepared the hardware platform for the next phase of the master's thesis, focusing on sensing and control algorithms."
   ],
 
   "images": [
@@ -40,6 +49,40 @@
     {
       "src": "../images/masters_thesis_small_hydrofoil_boat_hardware/tests_of_the_prototype.gif",
       "caption": "Figure 3: First water tests of the small-scale protoype (2024)"
+    },
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat_hardware/.jpg",
+      "caption": "Figure 4: Designed and 3d printed parts for mounting the foils and the propulsion system (2025)"
+    },
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat_hardware/precisely_gluing_the_front_struts_mounts_with_help_of_jigs_wiev_from_hull_bottom.jpeg",
+      "caption": "Figure 5: Gluing the front struts mounts with help of jigs - view from hull bottom (2025)"
+    },
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat_hardware/gluing_the_front_struts_with_a_jigs_wiev_from_inside_hull.jpeg",
+      "caption": "Figure 6: Gluing the front struts with a jig - view from inside the hull (2025)"
+    },
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat_hardware/fitting_the_deck_to_the_hull.jpeg",
+      "caption": "Figure 7: Fitting the composite deck to the hull after it has been milled on CNC machine (2025)"
+    },
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat_hardware/fitting_the_rear_strut_to_the_hull_before_gluing.jpeg",
+      "caption": "Figure 8: Fitting the rear strut, aligning the rear strut mount and jigs before gluing (2025)"
+    },
+
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat_hardware/front_compartment_hardware_mounted.jpeg",
+      "caption": "Figure 9 : Front compartment (2025)"
+    },
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat_hardware/rear_compartment_hardware_mounted.jpeg",
+      "caption": "Figure 10: Rear compartment (2025)"
+    },
+
+    {
+      "src": "../images/masters_thesis_small_hydrofoil_boat_hardware/.jpeg",
+      "caption": "Figure 11: "
     }
   ]
 }
