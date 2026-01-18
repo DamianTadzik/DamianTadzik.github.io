@@ -1,0 +1,51 @@
+{
+  "title": "Autonomous Boat Water Cannon - Water Delivery System for RoboBoat 2024 and 2025",
+
+  "date": "November 2023 - January 2024",
+  "technologies": [
+    "STM32 microcontroller",
+    "DC diaphragm pump",
+    "3D printing (FDM)",
+    "Embedded C",
+    "FreeRTOS",
+    "CAN bus",
+    "Custom mechanical design"
+  ],
+
+  "overview": [
+    "The goal of this project was to design and build a water cannon mounted on the autonomous boat Barka, capable of shooting water targets.",
+    "The system was developed as part of the RoboBoat 2024 competition, where water target engagement was one of the required missions.",
+    "A key constraint was simplicity and the use of components already available within the student research group."
+  ],
+
+  "highlights": [
+    "The entire water cannon system - from initial concept through mechanical design, and embedded software - was independently designed and implemented by me end to end.",
+    "The water cannon consists of a DC diaphragm pump drawing water directly from the lake and a custom-designed nozzle manufactured using 3D printing.",
+    "The mechanical design allows the entire cannon assembly to be quickly detached for transport or when not required during missions.",
+    "The system was fully integrated with the boat's onboard software, supporting both remote manual control and autonomous operation modes.",
+    "Control commands and status feedback were handled through the existing boat communication and control architecture (CAN, CRSF).",
+    "The solution was later reused and retained as a required subsystem for the RoboBoat 2025 competition."
+  ],
+
+  "results": [
+    "The water cannon operated reliably during testing and competition runs, successfully engaging water targets.",
+    "The simple and modular design proved easy to maintain and reuse across multiple seasons (RoboBoat 2024 and 2025).",
+    "Limitations included limited shooting range and accuracy, mainly due to pump pressure constraints and lack of closed-loop aiming control.",
+    "Future improvements could include pressure regulation, closed-loop aiming using vision feedback, and improved nozzle geometry."
+  ],
+
+  "images": [
+    {
+      "src": "../images/barka_water_cannon/water_cannon_shooting_2025_tests.jpg",
+      "caption": "Figure 1: Barka shooting its water cannon during tests (2025)."
+    },
+    {
+      "src": "../images/barka_water_cannon/nozzle_in_fusion360.jpg",
+      "caption": "Figure 2: CAD model of the custom 3D-printed nozzle (Fusion 360)."
+    },
+    {
+      "src": "../images/barka_water_cannon/fpv_water_shooting.gif",
+      "caption": "Figure 3: GIF from Barka's FPV camera showing the water cannon firing during indoor tests (2024)."
+    }
+  ]
+}

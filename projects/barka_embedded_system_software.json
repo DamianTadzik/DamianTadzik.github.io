@@ -1,7 +1,7 @@
 {
-  "title": "Barka Embedded System Software (BMS and Control)",
+  "title": "Autonomous Boat Embedded System - Control and Battery Management (BMS)",
 
-  "date": "January-February 2025",
+  "date": "January - February 2025",
   "technologies": [
     "STM32F3", 
     "FreeRTOS", 
@@ -40,15 +40,15 @@
       "caption": "Figure 1: Electrical box of the Barka autonomous boat, showing the Barka Board (bottom left) and BMS (upper left) with battery pack (left)."
     },
     {
-      "src": "../images/barka_embedded_system_software/placeholder_800x600px.jpg",
-      "caption": "Figure 2: Radio transmitter with custom telemetry display showing battery status received from the Barka boat over CRSF link."
+      "src": "../images/barka_embedded_system_software/battery_voltages_telemetry_shown_on_radio.jpg",
+      "caption": "Figure 2: Radio transmitter with custom telemetry display showing battery voltage received from the Barka boat over CRSF link."
     },
     {
       "src": "../images/barka_embedded_system_software/placeholder_640x480px.jpg",
       "caption": "Figure 3: CAN network schematic, showing the Barka Board and three BMS units connected via CAN bus."
     },
     {
-      "src": "../images/barka_embedded_system_software/placeholder_640x480px.jpg",
+      "src": "../images/barka_embedded_system_software/.jpg",
       "caption": "Figure 4: Code snippet showing the FreeRTOS task initialization based on board role (master/slave) determined by jumper settings at power-up."
     },
     {

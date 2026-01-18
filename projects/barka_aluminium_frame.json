@@ -1,0 +1,52 @@
+{
+  "title": "Autonomous Boat Structural Upgrade - Lightweight Modular Aluminium Frame",
+
+  "date": "October 2023",
+  "technologies": [
+    "V-slot aluminum profiles",
+    "Custom mechanical design",
+    "3D printing (FDM)",
+    "ASA filament",
+    "Fusion 360 (CAD)",
+    "Modular structural design"
+  ],
+
+  "overview": [
+    "The goal of this project was to replace an old, impractical aluminum tube frame that was difficult to assemble with a new modular structure based on V-slot aluminum profiles.",
+    "The primary objectives were to increase structural stiffness and significantly simplify assembly and disassembly, as the boat was designed for air transport as oversized luggage to international competitions (USA, Norway).",
+    "The new frame architecture also enabled easier integration of additional onboard equipment by leveraging widely used V-slot mounting standards."
+  ],
+
+  "highlights": [
+    "I designed a new structural frame based on V-slot aluminum profiles, with dedicated mounting points for key subsystems such as cameras, the electronics enclosure, and the LiDAR sensor.",
+    "The number of frame-to-float mounting points was increased from four to six in order to improve overall structural stiffness and load distribution.",
+    "I selected and ordered all profiles and connectors, cut the aluminum profiles to length, and assembled the complete frame.",
+    "New frame-to-float mounting brackets were designed, as the previous ones were dedicated to aluminum tubes and incompatible with V-slot profiles.",
+    "The redesigned mounting brackets were optimized to be lighter and more functional than the previous generation.",
+    "All mounting brackets were manufactured using 3D printing from ASA filament, chosen for its resistance to high temperatures and harsh environmental conditions encountered during competitions in Florida."
+  ],
+
+  "results": [
+    "The new frame is extremely quick to assemble and disassemble; for car transport, removing six bolts is sufficient to separate the boat into three compact parts (two floats and the electronics frame).",
+    "Following the upgrade, the frame has remained in continuous use and is considered a long-term solution, with no planned redesign in the foreseeable future."
+  ],
+
+  "images": [
+    {
+      "src": "../images/barka_aluminium_frame/old_fusion360_assembly.jpg",
+      "caption": "Figure 1: Fusion 360 CAD assembly of the original aluminum tube frame used prior to the structural upgrade."
+    },
+    {
+      "src": "../images/barka_aluminium_frame/new_fusion360_assembly.jpg",
+      "caption": "Figure 2: Fusion 360 CAD assembly of the redesigned modular frame based on V-slot aluminum profiles."
+    },
+    {
+      "src": "../images/barka_aluminium_frame/old_frame_at_tests.jpeg",
+      "caption": "Figure 3: Original aluminum tube frame installed on the boat during testing, highlighting limited modularity and complex assembly."
+    },
+    {
+      "src": "../images/barka_aluminium_frame/new_frame_at_competition.jpg",
+      "caption": "Figure 4: Final modular V-slot frame installed on the autonomous boat during competition, demonstrating improved rigidity and accessibility."
+    }
+  ]
+}

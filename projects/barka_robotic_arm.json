@@ -1,0 +1,62 @@
+{
+  "title": "Autonomous Boat Robotic Arm - Object Retrieval and Delivery System for RoboBoat 2024",
+
+  "date": "November 2023 - January 2024",
+  "technologies": [
+    "STM32F446",
+    "Stepper motors",
+    "TMC2226 stepper drivers",
+    "Embedded C",
+    "FreeRTOS",
+    "UART",
+    "DIR/STEP motion control",
+    "3D printing (FDM)",
+    "Lightweight aluminum structures",
+    "Custom test stands"
+  ],
+
+  "overview": [
+    "The goal of this project was to design and build a robotic arm mounted on the autonomous boat Barka, capable of retrieving objects from the water and transporting them elsewhere.",
+    "The system was developed for the RoboBoat 2024 competition, where object pickup and delivery was one of the required missions.",
+    "The arm was designed with two degrees of freedom, and its end effector was implemented as a scoop-style gripper, allowing multiple objects to be collected in a single motion."
+ ],
+
+  "highlights": [
+    "The entire robotic arm system - from concept through mechanical design, electronics, and embedded software — was independently designed and implemented by me end to end.",
+    "The end effector consists of a lightweight aluminum scoop with a mesh basket mounted at the end of the arm.",
+    "An initial proof-of-concept prototype was built using scrap steel parts, wooden rods, and mesh to validate the effectiveness and simplicity of the proposed solution.",
+    "Stepper motors with TMC2226 drivers were used as actuators; the motors were salvaged from a decommissioned 3D printer.",
+    "The arm homing and zero-position calibration were implemented using stall current sensing in the TMC2226 drivers, utilizing the integrated current shunt; this allowed sensorless referencing without limit switches.",
+    "A dedicated test setup was created to evaluate stepper motors and stepstick drivers, followed by the development of an STM32F446-based driver capable of controlling multiple TMC2226 modules using DIR/STEP signals and UART for runtime configuration.",
+    "A dedicated test stand was used to characterize stall detection behavior, tune driver parameters, and develop robust homing logic, resulting in reliable and repeatable initialization code.",
+    "The final robotic arm structure was manufactured using a combination of 3D-printed components and aluminum parts, and then mounted on the autonomous boat Barka.",
+    "Torque from the stepper motors was transmitted to the joints using toothed belt drives, providing mechanical decoupling and flexible motor placement.",
+    "The arm was fully integrated with the boat's control software, supporting both remote manual control and autonomous operation modes."
+  ],
+
+  "results": [
+    "The robotic arm successfully demonstrated reliable object retrieval during testing and competition runs.",
+    "The scoop-based end effector proved effective for collecting multiple floating objects in a single maneuver.",
+    "Limitations included relatively slow actuation speed and limited positioning precision due to the open-loop stepper-based control.",
+    "Future improvements could include closed-loop position feedback, weight reduction, and a more compact folding mechanism for transport."
+  ],
+
+  "images": [
+    {
+      "src": "../images/barka_robotic_arm/cad_assembly_of_whole_arm_with_motor_housings.jpg",
+      "caption": "Figure 1: Fusion360 CAD assembly of the robotic arm showing stepper motor housings and the effector."
+    },
+    {
+      "src": "../images/barka_robotic_arm/lifting_mechanism_pulleys_system.jpeg",
+      "caption": "Figure 2: Arm up and down movement mechanism based on stepper motor driving a pulley system."
+    },
+    {
+      "src": "../images/barka_robotic_arm/homing.gif",
+      "caption": "Figure 3: GIF showing the homing procedure based on stall current detection."
+    },
+    {
+      "src": "../images/barka_robotic_arm/full_movement_tests.gif",
+      "caption": "Figure 4: Fully assembled robotic arm mounted on the boat during testing, demonstrating pickup and retrieval motion."
+    }
+  ]
+}

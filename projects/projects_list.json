@@ -51,26 +51,25 @@
   },
   {
     "title": "Autonomous Boat Ball Launcher - Improved Racquet Ball Delivery System for RoboBoat 2025",
-    "jsonPath": "projects/project_barka_ball_launcher.json",
+    "jsonPath": "projects/barka_ball_launcher.json",
     "section": "2025",
-    "tag": "AlmostDone",
+    "tag": "Finished",
     "visible": true
   },
   {
-    "title": "CAN interface board for Jettson Orin",
-    "jsonPath": "projects/CAN_interface_board_for_jettson.json",
+    "title": "Autonomous Boat CAN Interface Board for Jetson Orin and Xsens IMU",
+    "jsonPath": "projects/barka_CAN_interface_board_for_jettson.json",
     "section":"2025",
     "tag": "Finished",
     "visible": true
   },
   {
-    "title": "Barka Embedded System Software (BMS and Control)",
+    "title": "Autonomous Boat Embedded System - Control and Battery Management (BMS)",
     "jsonPath": "projects/barka_embedded_system_software.json",
     "section": "2025",
     "tag": "AlmostDone",
     "visible": true
   },
-
 
   {
     "title": "Custom CAN Driver Library for AGH Solar Boat Projects",
@@ -107,20 +106,26 @@
     "tag": "Finished",
     "visible": true
   },
-
-
   {
-    "title": "Barka Robotic Arm and Water cannon",
-    "jsonPath": "projects/barka_robotic_arm_water_cannon.json",
-    "section": "2023/2024",
-    "tag": "ToBeDone",
+    "title": "Autonomous Boat Water Cannon - Water Delivery System for RoboBoat 2024 and 2025",
+    "jsonPath": "projects/barka_water_cannon.json",
+    "section": "2024",
+    "tag": "Finished",
     "visible": true
   },
   {
-    "title": "Barka aluminium frame",
+    "title": "Autonomous Boat Robotic Arm - Object Retrieval and Delivery System for RoboBoat 2024",
+    "jsonPath": "projects/barka_robotic_arm.json",
+    "section": "2024",
+    "tag": "Finished",
+    "visible": true
+  },
+
+  {
+    "title": "Autonomous Boat Structural Upgrade - Lightweight Modular Aluminium Frame",
     "jsonPath": "projects/barka_aluminium_frame.json",
-    "section": "2023/2024",
-    "tag": "ToBeDone",
+    "section": "2023",
+    "tag": "Finished",
     "visible": true
   },
   {
@@ -130,7 +135,6 @@
     "tag": "ToBeDone",
     "visible": true
   },
-
 
   {
     "title": "Flight height indicator based on ultrasonic sensors for solar racing hydrofoil",
@@ -147,7 +151,6 @@
     "visible": true
   },
 
-
   {
     "title": "Self balancing two wheeled inverted pendulum robot",
     "jsonPath": "projects/self_balancing_two_wheeled_inverted_pendulum_robot.json",
@@ -155,14 +158,6 @@
     "tag": "AlmostDone",
     "visible": true
   },
-  {
-    "title": "DIY chessboard and pieces",
-    "jsonPath": "projects/todo.json",
-    "section": "march 2021 - february 2022",
-    "tag": "ToBeDone",
-    "visible": false
-  },
-
 
   {
     "title": "DS18B20-Based Water and Air Thermometer for Outdoor Jacuzzi",
@@ -171,7 +166,13 @@
     "tag": "Finished",
     "visible": true
   },
-
+  {
+    "title": "DIY chessboard and pieces",
+    "jsonPath": "projects/todo.json",
+    "section": "2021",
+    "tag": "ToBeDone",
+    "visible": false
+  },
 
   {
     "title": "Homemade RGB Light Chains for Christmas Trees",
@@ -187,7 +188,6 @@
     "tag": "Finished",
     "visible": true
   },
-
 
   {
     "title": "Sample project",
